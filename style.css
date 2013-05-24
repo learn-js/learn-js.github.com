@@ -209,6 +209,22 @@ section#buy h1 {
   background-color: #F6DE1B;
 }
 
+.plans .plan a.button {
+  background-color: #128a96;
+  text-decoration: none;
+  padding: 15px 25px;
+  text-align: center;
+  color: #fff;
+  display: block;
+  font-size: 18px;
+}
+
+.plans .plan a.button:hover, 
+.plans .plan a.button:focus {
+  background-color: #7E2054;
+  color: #fff;
+}
+
 div.details {
   clear: both;
   padding-bottom: 20px;
@@ -220,6 +236,14 @@ p.just-the-book {
   text-align: center;
   font-size: 18px;
   font-weight: 100;
+}
+
+.release-early {
+  margin-top: 80px;
+}
+
+.release-early h2 {
+  text-align: center;
 }
 
 div.subscribe {
@@ -368,6 +392,10 @@ footer h1 {
 
   .plans .bonus {
     float: right;
+  }
+
+  .plans .book ul {
+    margin-bottom: 80px;
   }
 }
 
