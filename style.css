@@ -614,13 +614,6 @@ img.author {
     padding: 0px 50px;
   }
 
-  section.sign-up h2 {
-    text-transform: uppercase;
-    float: left;
-    margin-right: 50px;
-    line-height: 1;
-  }
-
   section.sign-up h2 .day {
     letter-spacing: 3px;
     font-size: 20px;
@@ -647,6 +640,10 @@ img.author {
 
   section.sign-up .event h4 {
     font-size: 15px;
+  }
+
+  .person {
+    text-align: left;
   }
 
   .person img {
@@ -677,6 +674,13 @@ img.author {
 
   .plans .book ul {
     margin-bottom: 52px;
+  }
+
+  section.sign-up h2 {
+    text-transform: uppercase;
+    float: left;
+    margin-right: 50px;
+    line-height: 1;
   }
 }
 /* clearfix */
