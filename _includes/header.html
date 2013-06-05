@@ -1,0 +1,25 @@
+{% if page.header == 'big' or post.header == 'big' %}
+
+<header class="{{ page.header }}{{ post.header }}">
+
+{% else %}
+  <header class="small">
+    <a href="{{ site.baseurl }}/">
+{% endif %}
+
+    <div class="container">
+
+      <h1>learn.js</h1>
+      <img class="logo" src="{{ site.baseurl }}/img/learnjs.png" />
+      <p class="subhead">a guidebook to building projects with javascript.</p>
+      <p class="author">Seth Vincent</p>
+
+    </div>
+
+  {% if page.header != 'big' and post.header != 'big' %}
+  </a>
+  {% endif %}
+
+</header>
+
+
