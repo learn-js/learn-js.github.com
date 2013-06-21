@@ -448,9 +448,13 @@ section.sign-up h2 .month {
 }
 
 section.sign-up .event {
-  margin: 0px auto;
+  margin: 50px auto 120px auto;
   font-size: 120%;
   text-align: center;
+}
+
+section.sign-up .event:last-child {
+  margin-bottom: 20px;
 }
 
 section.sign-up .event a {
@@ -630,7 +634,6 @@ img.author {
 
   section.sign-up .event {
     width: 70%;
-    margin: 0px auto;
     font-size: 120%;
   }
 
