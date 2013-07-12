@@ -46,6 +46,12 @@ b {
   color: #666;
 }
 
+hr {
+  border: 0px;
+  border-bottom: 1px solid #efefef;
+  margin-bottom: 50px;
+}
+
 .center {
   text-align: center;
 }
