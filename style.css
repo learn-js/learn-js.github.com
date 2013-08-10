@@ -15,6 +15,10 @@ body {
   border-top: 3px solid #F6DE1B;
 }
 
+body.no-top-border {
+  border-top: 0px;
+}
+
 * { 
   -moz-box-sizing: border-box; 
   -webkit-box-sizing: border-box; 
