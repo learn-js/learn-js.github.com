@@ -234,7 +234,7 @@ section#book .cover-wrapper {
   font-size:0.8em;
 }
 
-section#book .cover-wrapper .main-cover {
+section#book .cover-wrapper #main-cover {
   width:100%; 
   margin-bottom:10px;
 }
