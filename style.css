@@ -196,7 +196,6 @@ section#book h2 {
 }
 
 section#book img#main-cover {
-  width: 330px;
   height: auto;
   display: block;
   float: left;
