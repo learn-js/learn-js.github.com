@@ -29,7 +29,7 @@ h5,
 h6 {
   font-weight: 300;
   margin-top: 0px;
-  line-height: 1.2;
+  line-height: 1.3;
 }
 
 a {
@@ -171,6 +171,56 @@ img.author {
   width: 120px;
   height: auto;
   margin: 0px 0px 20px 20px;
+}
+
+section#book .inner-wrapper {
+  padding-top: 0px;
+}
+
+section#book p {
+  margin: 0px 0px 5px 0px;
+}
+
+section#book h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+section#book h2 {
+  font-size: 1.8em;
+  color: #ccc;
+}
+
+section#book img#main-cover {
+  width: 330px;
+  height: auto;
+  display: block;
+  float: left;
+  margin: 0px 30px 50px 0px;
+}
+
+section#book .button-wrapper {
+  margin-top:30px;
+}
+
+section#book .price {
+  font-size: 2em;
+}
+
+section#book a.button {
+  background-color: #128a96;
+  text-decoration: none;
+  padding: 15px 25px;
+  text-align: center;
+  color: #fff;
+  display: inline-block;
+  font-size: 18px;
+}
+
+section#book a.button:hover, 
+section#book a.button:focus {
+  background-color: #7E2054;
+  color: #fff;
 }
 
 section#description {
