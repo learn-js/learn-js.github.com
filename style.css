@@ -227,6 +227,26 @@ section#book a.button:focus {
   color: #fff;
 }
 
+section#book .cover-wrapper {
+  width: 100px;
+  height: 500px;
+  float:left;
+  margin-right: 30px;
+  font-size:0.8em;
+}
+
+section#book .cover-wrapper .main-cover {
+  width:100%; 
+  margin-bottom:10px;
+}
+
+@media only screen and (min-width: 600px) {
+  section#book .cover-wrapper {
+    width:200px;
+  }
+}
+
+
 section#description {
   text-align: center;
   background: url("/img/bg.png");
