@@ -28,5 +28,17 @@
     "grunt-contrib-livereload": "~0.1.2",
     "grunt-regarde": "~0.1.1"
   },
-  "keywords": []
+  "keywords": [],
+  "books": [
+    {
+      "title": "Learn.js #1: introduction to javascript",
+      "image": "learnjs-01-intro.jpg",
+      "buy": "http://gum.co/learnjs01"
+    },
+    {
+      "title": "Development Environments for Beginners",
+      "image": "dev-envs.jpg",
+      "buy": "https://gumroad.com/l/dev-envs"
+    },
+  ]
 }

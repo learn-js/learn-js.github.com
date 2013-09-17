@@ -4,7 +4,7 @@ input,
 button,
 select,
 textarea {
-  font: 15px/1.5 "Roboto", "Helvetica Neue", Helvetica, arial, sans-serif;
+  font: 17px/1.8 "Roboto", "Helvetica Neue", Helvetica, arial, sans-serif;
   color: #333;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
@@ -32,8 +32,12 @@ h4,
 h5,
 h6 {
   font-weight: 300;
-  margin-top: 0px;
+  margin: 0px;
   line-height: 1.3;
+}
+
+p {
+  margin-top: 0px;
 }
 
 a {
@@ -68,7 +72,7 @@ hr {
 
 .inner-wrapper {
   width: 100%;
-  padding: 50px 0px 40px 0px;
+  padding: 50px 0px 0px 0px;
 }
 
 header.big {
@@ -110,7 +114,7 @@ header.big p.author {
 header.small {
   margin-top: 35px;
   font-weight: 100;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   text-align: center;
 }
 
@@ -127,7 +131,6 @@ header.small img.logo {
 
 header.small p.subhead {
   font-size: 12px;
-  line-height: 10px;
   font-weight: 300;
   color: #888;
   display: block;
@@ -256,8 +259,6 @@ section#description {
 }
 
 section#description h1 {
-  font-size: 16px;
-  line-height: 30px;
   text-align: center;
 }
 
@@ -269,7 +270,6 @@ section#description h3 {
 
 p.version-description {
   font-size: 15px;
-  line-height: 20px;
   text-align: center;
   font-weight: 100;
 }
@@ -283,7 +283,6 @@ p.update-schedule {
 section#buy h1 {
   text-align: center;
   margin-bottom: 20px;
-  line-height: 40px;
 }
 
 .plans {
@@ -343,7 +342,7 @@ section#buy h1 {
   color: #fff;
 }
 
-div.details {
+#details {
   clear: both;
 }
 
@@ -361,43 +360,41 @@ p.just-the-book {
 }
 
 .release-early {
-  margin-top: 80px;
 }
 
 .release-early h2 {
   text-align: center;
 }
 
-div.subscribe {
+#subscribe {
   padding: 20px;
   background: url("/img/bg.png");
   -webkit-box-shadow: inset 0px 1px 5px 0px rgba(255, 255, 255, 1), inset 0px -1px 5px 0px rgba(255, 255, 255, 1), 0px 1px 1px 0px rgba(155, 155, 150, 0.1), 0px -1px 1px 0px rgba(155, 155, 150, 0.1);
   box-shadow: inset 0px 1px 5px 0px rgba(255, 255, 255, 1), inset 0px -1px 5px 0px rgba(255, 255, 255, 1), 0px 1px 1px 0px rgba(155, 155, 150, 0.1), 0px -1px 1px 0px rgba(155, 155, 150, 0.1);
-
   border: 1px solid #dedede;
   margin-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 
-div.subscribe h2 {
+#subscribe h2 {
   text-align: center;
   font-size: 35px;
-  line-height: 38px;
   font-weight: 100;
   margin-top: 20px
 }
 
-div.subscribe h3 {
+#subscribe h3 {
   text-align: center;
   font-size: 18px;
   font-weight: 100;
+  margin-bottom: 15px;
 }
 
-div.subscribe div.inputs {
+#subscribe div.inputs {
   text-align: center;
 }
 
-div.subscribe input.email {
+#subscribe input.email {
   border: 1px solid #ccc;
   display: inline-block;
   outline: none;
@@ -407,7 +404,7 @@ div.subscribe input.email {
   margin-bottom: 15px;
 }
 
-div.subscribe input.email:focus {
+#subscribe input.email:focus {
   border: 1px solid #aaa;
 }
 
@@ -419,7 +416,7 @@ input.button {
   border: 1px solid #128a96;
   background-color: #128a96;
   font-weight: 500;
-  height: 34px;
+  height: 42px;
 }
 
 input.button:hover {
@@ -608,6 +605,128 @@ img.author {
   margin-bottom: 15px;
 }
 
+/* books */
+
+#books ul {
+  text-align: center;
+  margin: 30px 0px 0px;
+  padding: 0px;
+}
+
+#books h3 {
+  text-align: left;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.book {
+  display: inline-block;
+  margin: 0px 10px 30px 10px;
+}
+
+.book a.learn {
+  display: block;
+  margin: 0px;
+  width: 240px;
+}
+
+.book img {
+  width: 100%;
+  height: auto;
+}
+
+.book a.learn > p {
+  text-align: left;
+  margin-left: 0px;
+  display: block;
+  height: 54px;
+}
+
+.book > p {
+  text-align: left;
+}
+
+.learn-more {
+  font-size: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.price {
+  margin-left: 10px;
+  font-size: 2.2em;
+  vertical-align: middle;
+}
+
+#book {
+  width: 250px;
+  float: right;
+  margin: 0px 0px 50px 40px;
+}
+
+#book img {
+  width: 100%;
+  height: auto;
+}
+
+#book #meta {
+  font-size: 10px;
+}
+
+button.buy,
+.button.buy,
+.book button,
+.book .button,
+#book button,
+#book .button {
+  background-color: #128a96;
+  text-decoration: none;
+  padding: 15px 25px;
+  text-align: center;
+  color: #fff;
+  display: inline-block;
+  font-size: 18px;
+  border: 0px;
+  font-weight: 300;
+  cursor: pointer;
+  text-shadow: none;
+}
+
+button.buy:hover, 
+button.buy:focus,
+.button.buy:hover, 
+.button.buy:focus,
+.book button:hover, 
+.book button:focus,
+.book .button:hover, 
+.book .button:focus,
+#book button:hover, 
+#book button:focus,
+#book .button:hover, 
+#book .button:focus {
+  background-color: #7E2054;
+}
+
+#introduction h1 {
+  text-align: center;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+
+#introduction h2 {
+  text-align: center;
+  display: block;
+  padding: 30px 30px 10px 30px;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+#introduction img#four-books {
+  width:100%;
+  height: auto;
+  margin-top: 20px;
+}
+
 @media only screen and (min-width: 600px) {
   .container {
     width: 540px;
@@ -615,7 +734,7 @@ img.author {
 
   .inner-wrapper {
     width: 100%;
-    padding: 50px 0px 40px 0px
+    padding: 50px 0px 0px 0px
   }
 
   header.big img.logo {
@@ -768,7 +887,17 @@ img.author {
     margin-right: 50px;
     line-height: 1;
   }
+
+  .book {
+    display: inline-block;
+    margin: 0px 20px 30px 20px;
+  }
+
+  #introduction h2 {
+    font-size: 25px;
+  }
 }
+
 /* clearfix */
 .container:before,
 .container:after {

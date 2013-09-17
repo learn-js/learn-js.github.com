@@ -2,36 +2,20 @@
 layout: default
 header: small
 ---
-{% include just-the-book.html %}
 
-<section id="description">
+<section id="introduction">
   <div class="container">
     <div class="inner-wrapper">
-      <h1><i>Learn.js</i> is like a collection of LEGO guides. <br>The goal: a fun way to learn javascript.</h1>
-
-      <h3 class="book-version"><b>Current version of the book: 0.4.1</b></h3>
-      <p class="version-description">
-        <i>Learn.js</i> hasn't made it to a full release yet, but if you buy it now you'll get a discount and get all updates to the book for free.
-      </p>
-      <p class="update-schedule">
-        <b>Expect regular updates until version 1.0.0</b>
-      </p>
+      <h1>Learn javascript by example with <i>Learn.js</i>.</h1>
+      {% include bundle.html %}
     </div>
   </div>
 </section>
 
-<section id="buy">
-  <div class="container">
-    <div class="inner-wrapper">
+{% include newsletter.html %}
 
-      {% include plans.html %}
+{% include books.html %}
 
-      {% include details.html %}
+{% include details.html %}
 
-      {% include tutoring.html %}
-      
-      {% include about.html %}
-      
-    </div>
-  </div>
-</section>
+{% include about.html %}

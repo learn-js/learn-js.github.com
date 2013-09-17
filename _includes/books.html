@@ -1,0 +1,35 @@
+<section id="books">
+  <div id="available">
+    <ul>
+      <h2>Available books</h2>
+      <p>Learn programming with our technical books.</p>
+      {% for book in site.books.available %}
+        <li class="book">
+          <a href="{{ book.buy }}" class="learn">
+            <img src="{{ site.baseurl }}/img/books/{{ book.image }}" />
+            <h3>{{ book.title }}</h3>
+            <p><a class="button buy" href="{{ book.buy }}">Buy the book</a> <span class="price">${{ book.price }}</span></p>
+          </a>
+          <p><a href="{{ site.baseurl }}/books/{{ book.slug }}">Learn more.</a></p>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div id="upcoming">
+    <ul>
+      <h2>Upcoming books</h2>
+      <p>Pre-order upcoming books at a discount.</p>
+      {% for book in site.books.upcoming %}
+        <li class="book">
+          <a href="{{ book.buy }}" class="learn">
+            <img src="{{ site.baseurl }}/img/books/{{ book.image }}" />
+            <h3>{{ book.title }}</h3>
+            <p><a class="button buy" href="{{ book.buy }}">Pre-order</a> <span class="price">${{ book.price }}</span></p>
+          </a>
+          <p style="width: 200px;"><a href="{{ site.baseurl }}/books/{{ book.slug }}">Early release scheduled for {{ book.release }}. Learn more.</a></p>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
