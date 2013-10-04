@@ -22,6 +22,8 @@ description: making 2d games with node.js and browserify.
 
 _This book is currently unreleased with a planned early release of November 4, 2013. Buy it now and you'll get all updates for free! You'll also be able to help guide the direction of the book by requesting content additions and providing feedback._
 
+Learn to develop 2d games with javascript using a wide range of tools and modules available via [npm](http://npmjs.org).
+
 Many javascript game / animation library I've found bundle things like requestAnimationFrame polyfill, gameloop, entities, abstract drawing methods, keyboard/mouse input, vector math, and more into one entangled library. If I don't like how the library handles just one of those components, I'm stuck with dead library weight, and sometimes it's difficult to replace a library's methods.
 
 Let's break down these components into separate pieces, learn what's available already on npm that we can use to build 2d games, and experiment with different approaches to building javascript games.
