@@ -1,25 +1,20 @@
-{% if page.header == 'big' or post.header == 'big' %}
 
-<header class="{{ page.header }}{{ post.header }}">
+<header 
+
+{% if page.header != 'big' and post.header != 'big' %}
+
+class="small">
+  <a href="{{ site.baseurl }}/">
+    <img id="badge-logo" src="{{ site.baseurl }}/img/badge-logo.png">
+    {{ page.header }}
+  </a>
+
 
 {% else %}
-  <header class="small">
-    <a href="{{ site.baseurl }}/">
+
+class="big">
+  <img id="badge-logo" src="{{ site.baseurl }}/img/badge-logo.png">    
+
 {% endif %}
-
-    <div class="container">
-
-      <h1>learn.js</h1>
-      <img class="logo" src="{{ site.baseurl }}/img/learnjs.png" />
-      <p class="subhead">a series of guidebooks to building projects with javascript.</p>
-      <p class="author">Seth Vincent</p>
-
-    </div>
-
-  {% if page.header != 'big' and post.header != 'big' %}
-  </a>
-  {% endif %}
-
+  <h1>Learn.js: javascript and node.js by example</h1>
 </header>
-
-

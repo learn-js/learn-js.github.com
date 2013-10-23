@@ -11,8 +11,9 @@ textarea {
   font-weight: 300;
 }
 
-body {
-  border-top: 3px solid #F6DE1B;
+body,
+html {
+  height: 100%;
 }
 
 body.no-top-border {
@@ -75,25 +76,42 @@ hr {
   padding: 50px 0px 0px 0px;
 }
 
+header {
+  background-image: url('img/splash.jpg');
+}
+
+header img#badge-logo {
+  width: 80%;
+  height: auto;
+  margin-top: 30%;
+}
+
 header.big {
-  margin-top: 150px;
   text-align: center;
   font-weight: 100;
   margin-bottom: 50px;
+  height: 100%;
 }
 
-header.big h1 {
+header h1 {
   color: #F6DE1B;
-  font-size: 50px;
-  margin-bottom: 120px;
+  font-size: 30px;
+  margin: 10px 10px 120px 10px;
   font-weight: 100;
 }
 
 header.big img.logo {
   display: block;
   margin: 50px auto;
-  width: 80%;
+  width: 75%;
   height: auto;
+}
+
+@media (min-width: 600px){
+  header img#badge-logo {
+    width: 400px;
+    margin-top: 13%;
+  }
 }
 
 header.big p.subhead {
@@ -112,21 +130,21 @@ header.big p.author {
 }
 
 header.small {
-  margin-top: 35px;
-  font-weight: 100;
-  margin-bottom: 10px;
-  text-align: center;
+  margin-top: 0px;
+  text-align: left;
+  height: 120px;
+  padding-top: 15px;
 }
 
 header.small h1 {
-  color: #F6DE1B;
-  font-size: 25px;
-  margin-bottom: 12px;
-  font-weight: 100;
+  display: none;
 }
 
-header.small img.logo {
-  display: none;
+header.small img#badge-logo {
+  display: block;
+  margin: 0px auto;
+  width: 90px;
+  height: auto;
 }
 
 header.small p.subhead {
@@ -247,7 +265,6 @@ section#book .cover-wrapper #main-cover {
     width:200px;
   }
 }
-
 
 section#description {
   text-align: center;
@@ -740,11 +757,6 @@ button.buy:focus,
   header.big img.logo {
     width: 400px;
     height: auto;
-  }
-
-  header.small {
-    margin-top: 20px;
-    text-align: left;
   }
 
   header.small h1 {
