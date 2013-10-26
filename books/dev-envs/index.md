@@ -13,7 +13,7 @@ description: Learn to set up development environments for ruby, javascript, and 
   <div id="meta">
     <p>Author: <b><a href="http://sethvincent.com" target="_blank">Seth Vincent</a></b>.</p>
     <p>Currently at: <b>89 pages</b>.</p>
-    <p>Version: <b>0.1.4</b>. (<a href="#changelog" alt="changelog">changelog</a>)</p>
+    <p>Version: <b>0.2.0</b>. (<a href="#changelog" alt="changelog">changelog</a>)</p>
     <p>Last updated: <b>October 26, 2013</b>.</p>
   </div>
 </div>
