@@ -13,14 +13,14 @@ description: making 2d games with node.js and browserify.
   </a>
   <div id="meta">
     <p>Author: <b><a href="http://sethvincent.com" target="_blank">Seth Vincent</a></b>.</p>
-    <p>Planned early release date: <b>November 4, 2013</b>.</p>
+    <p>Version: <b>0.1.0</b>.</p>
   </div>
 </div>
 
 ## Learn.js #2
 ### making 2d games with node.js and browserify.
 
-_This book is currently unreleased with a planned early release of November 4, 2013. Buy it now and you'll get all updates for free! You'll also be able to help guide the direction of the book by requesting content additions and providing feedback._
+_This is an early release of the book, which is currently under active development. Buy it now and you'll get all updates for free! You'll also be able to help guide the direction of the book by requesting content additions and providing feedback._
 
 Learn to develop 2d games with javascript using a wide range of tools and modules available via [npm](http://npmjs.org).
 
@@ -45,7 +45,7 @@ You'll learn:
 
 
 ### Free updates
-This book is under active development. You'll get all future updates for free. The book has a planned early release date of November 4, 2013. Buy the book early at a discount!
+This book is under active development. You'll get all future updates for free!
 
 <section id="introduction">
   <div class="container">
