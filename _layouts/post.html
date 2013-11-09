@@ -1,0 +1,23 @@
+---
+layout: blog
+---
+
+<article class="post" id="{{ post.slug }}">
+  <div class="post-date">{{ page.date | date: "%-d %B %Y" }}</div>
+
+  <h1 class="post-title">
+    {{ page.title }}
+  </h1>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  <a href="https://twitter.com/share" class="twitter-share-button" data-via="sethdvincent" data-hashtags="learnjs">Tweet</a>
+  <script>
+  !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+  </script>
+
+  {% include bio-seth.html %}
+</article>
+
