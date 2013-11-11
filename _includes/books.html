@@ -1,8 +1,8 @@
 <section id="books">
   <div id="available">
     <ul>
-      <h2><i>Learn.js</i> is like a collection of LEGO guides. <br>The goal: a fun way to learn javascript.</h2>
-      <h2>Available books</h2>
+      <h2 id="lego"><i>Learn.js</i> is like a collection of LEGO guides. <br>The goal: a fun way to learn javascript.</h2>
+      <h2 id="available-books">Available books:</h2>
       {% for book in site.books.available %}
         <li class="book">
           <a href="{{ book.buy }}" class="learn">
@@ -16,9 +16,10 @@
     </ul>
   </div>
 
+  {% if site.books.upcoming %}
   <div id="upcoming">
     <ul>
-      <h2>Upcoming books</h2>
+      <h2 id="upcoming-books">Upcoming books:</h2>
       <p>Pre-order upcoming books at a discount.</p>
       {% for book in site.books.upcoming %}
         <li class="book">
@@ -32,4 +33,5 @@
       {% endfor %}
     </ul>
   </div>
+  {% endif %}
 </section>

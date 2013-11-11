@@ -397,7 +397,8 @@ p.just-the-book {
   text-align: center;
   font-size: 35px;
   font-weight: 100;
-  margin-top: 20px
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 #subscribe h3 {
@@ -415,8 +416,8 @@ p.just-the-book {
   border: 1px solid #ccc;
   display: inline-block;
   outline: none;
-  width: 150px;
-  padding: 5px;
+  width: 170px;
+  padding: 10px 15px;
   vertical-align: top;
   margin-bottom: 15px;
 }
@@ -426,14 +427,12 @@ p.just-the-book {
 }
 
 input.button {
-  letter-spacing: 1px;
-  font-size: 12px;
-  padding: 5px 12px;
+  padding: 10px 15px;
   color: #fff;
   border: 1px solid #128a96;
   background-color: #128a96;
   font-weight: 500;
-  height: 42px;
+  height: 52px;
 }
 
 input.button:hover {
@@ -452,6 +451,22 @@ h2.tutoring {
   font-size: 30px;
   line-height:30px;
   font-weight: 100;
+}
+
+h2#lego {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 100;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+h2#available-books,
+h2#upcoming-books {
+  margin-bottom: 40px;
+  margin-top: 30px;
+  font-weight: 300;
+  font-size: 32px;
 }
 
 footer {
