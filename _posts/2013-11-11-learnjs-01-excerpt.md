@@ -1,11 +1,11 @@
 ---
-title: 'Excerpt from Learn.js #1: introduction to javascript and node.js'
+title: 'Open sourcerers: assorted ideas on beginning programming (excerpt from Learn.js #1)'
 slug: learnjs-01-excerpt-nov11
 published: true
 layout: post
 ---
 
-# Enter the wild and wondrous land of javascripting.
+## Enter the wild and wondrous land of javascripting.
 To control a computer with code can feel like wielding a weird and mighty magic. It can seem intangible and unfamiliar, but it’s important to know that code is real and learnable. 
 
 Magic in popular culture typically belongs to those who are born with the power.
