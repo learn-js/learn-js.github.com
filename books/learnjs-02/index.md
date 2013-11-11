@@ -1,5 +1,6 @@
 ---
 layout: static
+title: Learn.js #2: making 2d games with node.js and browserify
 name: Learn.js #2
 description: making 2d games with node.js and browserify.
 ---

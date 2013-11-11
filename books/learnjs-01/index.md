@@ -1,5 +1,6 @@
 ---
 layout: static
+title: Learn.js #1: introduction to javascript and node.js
 name: Learn.js #1
 description: introduction to javascript.
 ---
