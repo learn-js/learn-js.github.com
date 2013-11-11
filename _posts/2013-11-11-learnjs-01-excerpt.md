@@ -49,4 +49,6 @@ Your mastery of programming relies on how motivated you are to learn, and how di
 
 Keep coding.
 
+<br>
+
 _This is an excerpt from the book [Learn.js #1: an introduction to javascript and node.js](http://gum.co/learnjs01). The book is still under active development, and you can [buy it early for $10](http://gum.co/learnjs01). You can also [buy it in a bundle with three other books in the series for $25](http://gum.co/bundle01)._
