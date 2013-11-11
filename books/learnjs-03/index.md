@@ -1,6 +1,6 @@
 ---
 layout: static
-title: Learn.js #3: Mapping with Leaflet.js
+title: 'Learn.js #3: Mapping with Leaflet.js'
 name: Learn.js #3
 description: mapping with leaflet.js.
 ---
