@@ -8,7 +8,7 @@ description: introduction to javascript.
 <div id="book">
   <a href="http://gum.co/learnjs01">
     <img src="{{ site.baseurl }}/img/books/learnjs-01-intro.png" />
-    <p><strong>Learn.js #1:</strong> introduction to javascript</p>
+    <p><strong>Learn.js #1:</strong> introduction to javascript and node.js</p>
 
     <p><a class="button buy" href="http://gum.co/learnjs01">Buy</a> <span class="price">$10</span></p>
   </a>
