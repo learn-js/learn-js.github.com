@@ -825,7 +825,7 @@ code {
   border-radius: 3px;
 }
 
-pre.prettyprint {
+pre, pre.prettyprint {
   font-size: 15px;
   padding: 10px 15px;
   background-color: #fcfcfa;
@@ -835,7 +835,8 @@ pre.prettyprint {
   margin-bottom: 35px;
 }
 
-pre.prettyprint code {
+pre.prettyprint code,
+pre code {
  background-color: none;
  border: 0px;
  padding: 0px;
