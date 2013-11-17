@@ -1,0 +1,159 @@
+---
+title: A super simple starting point for 2d javascript games
+slug: simple-2d-game
+published: true
+layout: post
+---
+
+<p>Here&#39;s the goal: I wanted the smallest and simplest starting point for 2d games I could come up with, using a clear and concise API. </p>
+<p>This article shows what I&#39;ve got so far on my way to that goal.</p>
+<h3>Install node.js</h3>
+<p>We&#39;re using node.js in this example, because we&#39;re using modules that are stored on npm, and that use the core node.js <code>events</code> module. We&#39;re using browserify so that we can use node-style modules in the browser.</p>
+<p>You can install node.js from <a href="http://nodejs.org/download">nodejs.org/download</a>. I like to use a tool called <a href="https://github.com/creationix/nvm">nvm to install and manage different versions of node.js</a>.</p>
+<h3>Create a folder for your game and change directory into it:</h3>
+<pre><code>mkdir new-simple-game
+cd new-simple-game</code></pre>
+<h3>Create a package.json file with the npm command:</h3>
+<pre><code>npm init</code></pre>
+<p>Answer all the questions, and it&#39;ll create a package.json file for you.</p>
+<h3>Install the gameloop and crtrdg-keyboard modules:</h3>
+<pre><code>npm install gameloop crtrdg-keyboard</code></pre>
+<h3>Install the browserify and beefy modules if you haven&#39;t already:</h3>
+<pre><code>npm install -g beefy browserify</code></pre>
+<p>The -g option installs these modules globally so they can be used on the command line</p>
+<h3>Add this command to your scripts in the package.json file:</h3>
+<pre><code>beefy game.js:bundle.js --live</code></pre>
+<p>So the scripts object should look like this in your package.json file:</p>
+<pre><code>&quot;scripts&quot;: {
+  &quot;start&quot;: &quot;beefy game.js:bundle.js --live&quot;
+}</code></pre>
+<p>To run your game locally you&#39;ll be able to run <code>npm start</code>, then check out your game at <code>http://localhost:9966</code>.</p>
+<h3>Create a game.js file</h3>
+<pre><code>var Game = require(&#39;gameloop&#39;);
+var Keyboard = require(&#39;crtrdg-keyboard&#39;);
+
+var canvas = document.getElementById(&#39;game&#39;);
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+
+var game = new Game({
+  renderer: canvas.getContext(&#39;2d&#39;),
+});
+
+var keyboard = new Keyboard(game);
+
+var box = {
+  x: 0,
+  y: 0,
+  w: 10,
+  h: 10,
+  color: &#39;#ffffff&#39;,
+  speed: 5
+}
+
+box.update = function(interval){
+  if (&#39;W&#39; in keyboard.keysDown) box.y -= box.speed;
+  if (&#39;S&#39; in keyboard.keysDown) box.y += box.speed;
+  if (&#39;A&#39; in keyboard.keysDown) box.x -= box.speed;
+  if (&#39;D&#39; in keyboard.keysDown) box.x += box.speed;
+
+  if (box.x &lt; 0) box.x = 0;
+  if (box.y &lt; 0) box.y = 0;
+  if (box.x &gt;= canvas.width - box.w) box.x = canvas.width - box.w;
+  if (box.y &gt;= canvas.height - box.h) box.y = canvas.height - box.h;
+}
+
+box.draw = function(context){
+  context.fillStyle = box.color;
+  context.fillRect(box.x, box.y, box.w, box.h);
+}
+
+game.on(&#39;update&#39;, function(interval){
+  box.update();
+});
+
+game.on(&#39;draw&#39;, function(context){
+  context.fillStyle = &#39;#E187B8&#39;;
+  context.fillRect(0, 0, canvas.width, canvas.height);
+  box.draw(context);
+});
+
+game.start();</code></pre>
+<h3>The game.js file broken into chunks with thorough descriptions:</h3>
+<p>Require the gameloop and crtrdg-keyboard modules so you can use them to create your game&#39;s functionality:</p>
+<pre><code>var Game = require(&#39;gameloop&#39;);
+var Keyboard = require(&#39;crtrdg-keyboard&#39;);</code></pre>
+<p>Find the canvas tag in the html and set the size of the canvas to the width and height of the window:</p>
+<pre><code>var canvas = document.getElementById(&#39;game&#39;);
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;</code></pre>
+<p>Create a new game, passing in the 2d drawing context as the renderer:</p>
+<pre><code>var game = new Game({
+  renderer: canvas.getContext(&#39;2d&#39;),
+});</code></pre>
+<p>Create keyboard object, so you can listen for when keys are pressed:</p>
+<pre><code>var keyboard = new Keyboard(game);</code></pre>
+<p>Create a simple box that can be moved around the screen when keys are pressed:</p>
+<pre><code>var box = {
+  x: 0,
+  y: 0,
+  w: 10,
+  h: 10,
+  color: &#39;#ffffff&#39;,
+  speed: 5
+}</code></pre>
+<p>Implement an update() method on box that handles keyboard input and checking the box&#39;s position against the canvas boundaries:</p>
+<pre><code>box.update = function(interval){
+  if (&#39;W&#39; in keyboard.keysDown) box.y -= box.speed;
+  if (&#39;S&#39; in keyboard.keysDown) box.y += box.speed;
+  if (&#39;A&#39; in keyboard.keysDown) box.x -= box.speed;
+  if (&#39;D&#39; in keyboard.keysDown) box.x += box.speed;
+
+  if (box.x &lt; 0) box.x = 0;
+  if (box.y &lt; 0) box.y = 0;
+  if (box.x &gt;= canvas.width - box.w) box.x = canvas.width - box.w;
+  if (box.y &gt;= canvas.height - box.h) box.y = canvas.height - box.h;
+}</code></pre>
+<p>Implement a draw method on box that draws a simple rectangle:</p>
+<pre><code>box.draw = function(context){
+  context.fillStyle = box.color;
+  context.fillRect(box.x, box.y, box.w, box.h);
+}</code></pre>
+<p>Listen for the update event on the game object, and run the box.update() method on each update event:</p>
+<pre><code>game.on(&#39;update&#39;, function(interval){
+  box.update();
+});</code></pre>
+<p>Listen for the draw event on the game object.
+Paint the canvas pink and run the box.draw() method on each draw event:</p>
+<pre><code>game.on(&#39;draw&#39;, function(context){
+  context.fillStyle = &#39;#E187B8&#39;;
+  context.fillRect(0, 0, canvas.width, canvas.height);
+  box.draw(context);
+});</code></pre>
+<p>Start the game:</p>
+<pre><code>game.start();</code></pre>
+<h3>Create an index.html file</h3>
+<pre><code>touch index.html</code></pre>
+<p>Open index.html in your text editor and add this html code to the file:</p>
+<pre><code>&lt;!doctype html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;2d game made with javascript&lt;/title&gt;
+  &lt;style&gt;
+    body { margin: 0px;}
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;canvas id=&quot;game&quot;&gt;&lt;/canvas&gt;
+  &lt;script src=&quot;bundle.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+<h3>Run npm start to check out your game</h3>
+<pre><code>npm start</code></pre>
+<p>Go to <a href="http://localhost:9966"><a href="http://localhost:9966">http://localhost:9966</a></a> to see the beginnings of your game!</p>
+<h2>Next steps</h2>
+<p>Check out the modules we used for more usage details: <a href="http://github.com/sethvincent/gameloop">gameloop</a>, <a href="http://github.com/sethvincent/crtrdg-keyboard">crtrdg-keyboard</a>.</p>
+<h3>More modules</h3>
+<p>Also check out the crtrdg.js project at <a href="http://crtrdg.com">crtrdg.com</a> and the <a href="https://github.com/hughsk/game-modules/wiki/Modules">game modules wiki</a> for more cool modules you can use to make javascript games.</p>
+<h3>Book about 2d javascript games</h3>
+<p>I&#39;m working on a book about making 2d games with javascript. I&#39;m releasing a few chapters at a time, and <a href="https://gumroad.com/l/learnjs02">you can buy it early at a discount</a>. You can also <a href="https://gumroad.com/l/bundle01">buy it bundled with 3 other books about javascript</a>. Not ready to buy the books but still want to follow along and be the first to know about new book releases and related projects? <a href="http://eepurl.com/rN5Nv">Sign up for our newsletter</a>.</p>
