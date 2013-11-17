@@ -477,6 +477,8 @@ footer h1 {
   font-size: 40px;
   color: #F6DE1B;
   letter-spacing: 1px;
+  margin-bottom: 20px;
+  font-weight: 300;
 }
 
 section#workshops {
