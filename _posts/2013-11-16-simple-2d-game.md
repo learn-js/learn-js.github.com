@@ -243,6 +243,10 @@ npm start
 
 Go to [http://localhost:9966](http://localhost:9966) to see the beginnings of your game!
 
+See a demo here: [http://sethvincent.github.io/simple-game-example/](http://sethvincent.github.io/simple-game-example/).
+
+A GitHub repository for this example lives here: [https://github.com/sethvincent/simple-game-example](https://github.com/sethvincent/simple-game-example)
+
 ## Next steps
 Check out the modules we used for more usage details: [gameloop](http://github.com/sethvincent/gameloop), [crtrdg-keyboard](http://github.com/sethvincent/crtrdg-keyboard).
 
