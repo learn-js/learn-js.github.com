@@ -17,18 +17,18 @@ books:
       slug: learnjs-02
       pages: 
 
-    - title: Development Environments for Beginners
-      image: dev-envs.png
-      buy: https://gumroad.com/l/dev-envs
-      price: 10
-      slug: dev-envs
-      pages:
-
     - title: "Learn.js #3: mapping with leaflet.js"
       image: learnjs-03-leaflet.png
       buy: http://gum.co/learnjs03
       price: 10
       slug: learnjs-03
       pages: 
+
+    - title: Development Environments for Beginners
+      image: dev-envs.png
+      buy: https://gumroad.com/l/dev-envs
+      price: 10
+      slug: dev-envs
+      pages:
 
   upcoming:
