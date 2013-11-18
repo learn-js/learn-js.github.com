@@ -6,11 +6,11 @@ description: introduction to javascript.
 ---
 
 <div id="book">
-  <a href="http://gum.co/learnjs01">
+  <a href="http://gum.co/learnjs01?wanted=true">
     <img src="{{ site.baseurl }}/img/books/learnjs-01-intro.png" />
     <p><strong>Learn.js #1:</strong> introduction to javascript and node.js</p>
 
-    <p><a class="button buy" href="http://gum.co/learnjs01">Purchase</a> <span class="price">$10</span></p>
+    <p><a class="button buy" href="http://gum.co/learnjs01?wanted=true">Purchase</a> <span class="price">$10</span></p>
   </a>
   <div id="meta">
     <p>Author: <b><a href="http://sethvincent.com" target="_blank">Seth Vincent</a></b>.</p>

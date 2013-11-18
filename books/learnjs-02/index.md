@@ -6,11 +6,11 @@ description: making 2d games with node.js and browserify.
 ---
 
 <div id="book">
-  <a href="http://gum.co/learnjs02">
+  <a href="http://gum.co/learnjs02?wanted=true">
     <img src="{{ site.baseurl }}/img/books/learnjs-02-2dgames.png" />
     <p><strong>Learn.js #2:</strong> making 2d games with node.js and browserify.</p>
 
-    <p><a class="button buy" href="http://gum.co/learnjs02">Purchase</a> <span class="price">$10</span></p>
+    <p><a class="button buy" href="http://gum.co/learnjs02?wanted=true">Purchase</a> <span class="price">$10</span></p>
   </a>
   <div id="meta">
     <p>Author: <b><a href="http://sethvincent.com" target="_blank">Seth Vincent</a></b>.</p>
