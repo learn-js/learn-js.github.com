@@ -1,5 +1,5 @@
 ---
-title: 'Open sourcerers: assorted ideas on beginning programming (excerpt from Learn.js #1)'
+title: 'Open sourcerers: assorted ideas on beginning programming'
 slug: learnjs-01-excerpt-nov11
 published: true
 layout: post
