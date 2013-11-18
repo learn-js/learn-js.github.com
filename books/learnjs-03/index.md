@@ -10,18 +10,18 @@ description: mapping with leaflet.js.
     <img src="{{ site.baseurl }}/img/books/learnjs-03-leaflet.png" />
     <p><strong>Learn.js #3:</strong> mapping with leaflet.js.</p>
 
-    <p><a class="button buy" href="http://gum.co/learnjs03">Pre-order</a> <span class="price">$7</span></p>
+    <p><a class="button buy" href="http://gum.co/learnjs03">Purchase</a> <span class="price">$10</span></p>
   </a>
   <div id="meta">
     <p>Author: <b><a href="http://sethvincent.com" target="_blank">Seth Vincent</a></b>.</p>
-    <p>Planned early release date: <b>November 18, 2013</b>.</p>
+    <p>Current version: <b>0.1.0</b> – released Nov 18, 2013.</p>
   </div>
 </div>
 
 ## Learn.js #3
 ### mapping with leaflet.js.
 
-_This book is currently unreleased with a planned early release of November 18, 2013. Buy it now and you'll get all updates for free! You'll also be able to help guide the direction of the book by requesting content additions and providing feedback._
+_I'm releasing this book a few chapters at a time in part to get feedback from you about what topics you'd like to see in the book. Buy it now and you'll get all updates for free! You'll also be able to help guide the direction of the book by requesting content additions and providing feedback._
 
 [Leaflet.js](http://leafletjs.com/) is an awesome, easy to learn mapping library. In this book we’ll go through some introductory examples so you can get started using it in your projects. We'll also use data from various public sources like open government data, social networks and geographically-aware wiki to create interactive maps.
 
@@ -42,7 +42,10 @@ You'll learn:
 
 
 ### Free updates
-This book is under active development. You'll get all future updates for free. The book has a planned early release date of November 18, 2013. Buy the book early at a discount!
+This book is under active development. You'll get all future updates for free. Buy the book early at a discount!
+
+### This book is open source
+Please direct errata to the issues queue of the book's GitHub repository: [github.com/learn-js/learnjs-03-leaflet](https://github.com/learn-js/learnjs-03-leaflet)
 
 <section id="introduction">
   <div class="container">
