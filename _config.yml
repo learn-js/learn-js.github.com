@@ -24,11 +24,11 @@ books:
       slug: dev-envs
       pages:
 
-  upcoming:
     - title: "Learn.js #3: mapping with leaflet.js"
       image: learnjs-03-leaflet.png
       buy: http://gum.co/learnjs03
-      price: 7
+      price: 10
       slug: learnjs-03
       pages: 
-      release: "November 18, 2013"
+
+  upcoming:
