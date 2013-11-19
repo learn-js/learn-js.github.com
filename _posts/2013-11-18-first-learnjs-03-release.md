@@ -12,9 +12,7 @@ It's currently at 27 pages, and focuses on introductory information about Leafle
 I'm releasing this book a few chapters at a time, in part to get feedback from you about what topics you'd like to see in the book.
 
 ### The book is open source
-Feel free to check out the book on GitHub before/rather than buying it. 
-
-Please direct errata to the issues queue of the book's GitHub repository: [github.com/learn-js/learnjs-03-leaflet](https://github.com/learn-js/learnjs-03-leaflet)
+Feel free to check out the book on GitHub before/rather than buying it, and please direct errata to the issues queue of the book's GitHub repository: [github.com/learn-js/learnjs-03-leaflet](https://github.com/learn-js/learnjs-03-leaflet)
 
 ### Support development of the book
 Your support makes my work possible, and I really appreciate that. 
