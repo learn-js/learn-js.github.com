@@ -23,7 +23,7 @@ Your support makes my work possible, and I really appreciate that.
 
 This book is part of a series, and if you're interested in getting the whole series, which includes a book about setting up ruby, javascript, & python development environments, an introductory book to javascript, and a book about making 2d games with javascript.
 
-**[You can buy the full bundle here](https://gumroad.com/l/bundle01)**
+**[You can buy the full bundle here](https://gumroad.com/l/bundle01)**.
 
 Of course, you can also pay the amount you think it's worth, so if you are excited about this series and want to help make it awesome, feel free to add an extra tip.
 
