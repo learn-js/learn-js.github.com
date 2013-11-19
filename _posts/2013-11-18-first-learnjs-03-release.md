@@ -17,9 +17,9 @@ Feel free to check out the book on GitHub before/rather than buying it.
 Please direct errata to the issues queue of the book's GitHub repository: [github.com/learn-js/learnjs-03-leaflet](https://github.com/learn-js/learnjs-03-leaflet)
 
 ### Support development of the book
-Your support makes my work possible, and I really appreciate that. [You can buy the book here](https://gumroad.com/l/learnjs03).
+Your support makes my work possible, and I really appreciate that. **[You can buy the book here](https://gumroad.com/l/learnjs03)**.
 
-This book is part of a series, and if you're interested in getting the whole series, which includes a book about setting up ruby, javascript, & python development environments, an introductory book to javascript, and a book about making 2d games with javascript, [you can buy the full bundle here](https://gumroad.com/l/bundle01)
+This book is part of a series, and if you're interested in getting the whole series, which includes a book about setting up ruby, javascript, & python development environments, an introductory book to javascript, and a book about making 2d games with javascript, **[you can buy the full bundle here](https://gumroad.com/l/bundle01)**
 
 Of course, you can also pay the amount you think it's worth, so if you are excited about this series and want to help make it awesome, feel free to add an extra tip.
 
