@@ -89,3 +89,7 @@ And when you're ready to deploy your project, you can run `npm run bundle` to ge
 Want to know exactly when proper support for CommonJS lands in the main jquery repository? [Search for CommonJS in the jQuery issues queue](http://bugs.jquery.com/search?q=CommonJS) to get a sense of the progress that developers have made.
 
 I'll update this post with revised details when upcoming versions of jQuery are released.
+
+See the full, operational code on github: [github.com/learn-js/jquery-backbone-browserify-example](https://github.com/learn-js/jquery-backbone-browserify-example).
+
+If you're getting started learning javascript & node.js you may want to purchase the [Learn.js bundle of books](http://gum.co/bundle01) that go more in depth with building applications using node.js, npm, and browserify. **[Learn more about the series](http://learnjs.io/#books)**.
