@@ -92,4 +92,4 @@ I'll update this post with revised details when upcoming versions of jQuery are 
 
 See the full, operational code on github: [github.com/learn-js/jquery-backbone-browserify-example](https://github.com/learn-js/jquery-backbone-browserify-example).
 
-If you're getting started learning javascript & node.js you may want to purchase the [Learn.js bundle of books](http://gum.co/bundle01) that go more in depth with building applications using node.js, npm, and browserify. **[Learn more about the series](http://learnjs.io/#books)**.
+If you're getting started learning javascript & node.js you may want to purchase the **[Learn.js bundle of books](http://gum.co/bundle01)** that go more in depth with building applications using node.js, npm, and browserify. **[Learn more about the series](http://learnjs.io/#books)**.
