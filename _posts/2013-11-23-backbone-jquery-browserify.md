@@ -1,5 +1,5 @@
 ---
-title: Backbone & jQuery meet Browserify: easy.
+title: 'Backbone & jQuery meet Browserify: easy.'
 slug: backbone-jquery-browserify
 published: true
 layout: post
@@ -7,7 +7,7 @@ layout: post
 
 Using browserify with modules from npm can be a little overwhelming at first, so what if we were able to use a couple of common front-end development libraries using along with browserify to ease the process of getting started? 
 
-It's possible to build applications using [backbone]() and [jquery]() that are bundled by [browserify](https://github.com/substack/node-browserify), and in this post we'll take a look at the basics of how that works. We'll use a tool called [beefy](https://github.com/chrisdickinson/beefy) as the development server.
+It's possible to build applications using [backbone](https://github.com/jashkenas/backbone) and [jquery](https://github.com/jquery/jquery) that are bundled by [browserify](https://github.com/substack/node-browserify), and in this post we'll take a look at the basics of how that works. We'll use a tool called [beefy](https://github.com/chrisdickinson/beefy) as the development server.
 
 To get started, create a directory for your project, change directory into it, and run `npm init` to create a package.json file for your project:
 
