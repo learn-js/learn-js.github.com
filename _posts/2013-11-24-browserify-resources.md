@@ -95,6 +95,11 @@ Browserify is used primarily with npm. Both of those tools have similar counterp
 
 A thorough explanation of switching from RequireJS to Browserify.
 
+### 2013: A client side package manager oddyssey
+[calvinmetcalf.com/post/61957209713/2013-a-client-side-package-manager-oddyssey](http://calvinmetcalf.com/post/61957209713/2013-a-client-side-package-manager-oddyssey)
+
+A series of posts exploring package managers for client side code. Includes npm/Browserify.
+
 ### My strategy for client-side package managers (choosing between npm, bower, and component)
 [superbigtree.tumblr.com/post/58075340096/my-strategy-for-client-side-package-managers-choosing](http://superbigtree.tumblr.com/post/58075340096/my-strategy-for-client-side-package-managers-choosing)
 
