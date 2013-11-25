@@ -3,9 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>
-      {{ page.title || post.title }} | 
-      learn.js – a series fo guide books to building projects with javascript</title>
+    <title>{% if page.title || post.title %}
+      {{ page.title || post.title }} | learn.js
+      {% else %}
+      learn.js – a series of guide books to building projects with javascript
+      {% endif %}
+    </title>
     <meta name="description" content="a guidebook to building projects with javascript.">
     <meta name="viewport" content="width=device-width">
 
