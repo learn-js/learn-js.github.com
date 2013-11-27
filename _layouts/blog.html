@@ -2,12 +2,22 @@
 layout: default
 ---
 
-<div class="main">
+<div class="main blog">
   <div class="container">
     {% include top-nav.html %}
     
     <div class="inner-wrapper">
       {{ content }}
+    </div>
+
+    <div class="sidebar">
+      <h2>The Books:</h2>
+      <a href="http://gum.co/bundle01">
+        <img src="{{ site.baseurl }}/img/books/four-books.png" id="four-books">
+        <h5>Order the first 4 books in the Learn.js series.</h5>
+      </a>
+      <h5 class="sidebar-button"><a href="{{ site.baseurl }}/#available">Learn more about the four books.</a></h5>
+      <h5 class="sidebar-button"><a href="{{ site.baseurl }}/#subscribe">Subscribe to the newsletter to get updates about Learn.js first.</a></h5>
     </div>
   </div>
 </div>
