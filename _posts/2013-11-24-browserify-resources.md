@@ -32,7 +32,7 @@ Another great look at the basics of Browserify.
 A rundown of projects that have made developing with browserify more accessible and more interesting: requirebin.com, npmsearch.com, and Browserify CDN.
 
 ### Browserify and the Universal Module Definition
-[dontkry.com/posts/code/browserify-and-the-universal-module-definition.html](http://maxogden.com/node-packaged-modules.html)
+[dontkry.com/posts/code/browserify-and-the-universal-module-definition.html](http://dontkry.com/posts/code/browserify-and-the-universal-module-definition.html)
 
 An awesome look at the possibilities for using Browserify to bundle modules written in AMD, CommonJS/node.js, UMD, ECMAscript 6, and global modules. 
 
