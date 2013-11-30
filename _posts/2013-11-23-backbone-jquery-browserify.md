@@ -19,7 +19,7 @@ npm init
 
 Answer the questions from the `npm init` prompt.
 
-## Install jquery-browserify and backbone:
+## Install jquery and backbone:
 `npm install --save jquery backbone`
 
 ## Create a view module in a file named app-view.js:
