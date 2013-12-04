@@ -21,6 +21,12 @@ The basics of writing modules for the browser using node.js core modules and mod
 
 A very thorough introduction to using npm, Browserify, and Grunt.js.
 
+### NPM Everywhere (Slides)
+
+[NPM Everywhere](http://slid.es/azer/npm)
+
+Slides for introducing front-end people NPM, Browserify and their benefits.
+
 ### Introduction to Browserify
 [blakeembrey.com/articles/introduction-to-browserify](http://blakeembrey.com/articles/introduction-to-browserify)
 
