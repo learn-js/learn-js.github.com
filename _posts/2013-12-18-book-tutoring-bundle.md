@@ -35,9 +35,9 @@ You'll also get 2 hours of tutoring. I recommend breaking the 2 hours up into on
 ### The community:
 There will also be a forum available to you that you can use to discuss your project and what you are learning with others who are at a similar experience level. We'll be able to work as a group in the forum to solve problems, evaluate approaches and libraries, and provide feedback on your work.
 
-I'm limiting sales of this bundle to 35 people, and it will be available for purchase for the remainder of December. The tutoring sessions will be completed throughout January and February.
-
 ### Get the bundle:
+I'm limiting sales of this bundle to 35 people. The tutoring sessions will be completed throughout January and February.
+
 The bundle is available for purchase at $125 through Gumroad: 
 
 <a class="button buy" href="https://gumroad.com/l/gadA" target="_blank"> Buy the Books + Tutoring + Community Bundle</a>
