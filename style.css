@@ -819,6 +819,11 @@ button.buy:focus,
   margin-bottom: 30px;
 }
 
+.post-content img {
+  width: 100%;
+  height: auto;
+}
+
 nav#primary ul {
   padding: 22px 0px 18px 0px;
   margin: 0px;
