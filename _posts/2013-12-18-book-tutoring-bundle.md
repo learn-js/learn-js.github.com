@@ -15,7 +15,7 @@ I've found that the best learning experiences combine these different methods. I
 
 Additionally, I've realized that tutoring others helps improve the content I produce for books and blog posts. I get a better idea of what people struggle with and what scope of content is most helpful for people at various learning stages.
 
-With those things in mind I'm doing a limited release of the 4-book Learn.js series bundled with 2 hours of Javascript tutoring. 
+With those things in mind I'm doing a limited release of the 4-book Learn.js series bundled with 3 hours of Javascript tutoring. 
 
 You'll likely find this bundle of books + tutoring most useful if you're just getting started with Javascript, or you've had some experience and are beginning to learn libraries like Backbone.js or Leaflet.js, or you want to start learning Node.js.
 
@@ -30,7 +30,7 @@ You'll likely find this bundle of books + tutoring most useful if you're just ge
 These books are currently works in progress (some more than others) totalling over 220 pages of content. You'll get all updates to the books for free.
 
 ### The tutoring:
-You'll also get 2 hours of tutoring. I recommend breaking the 2 hours up into one-hour chunks. In the first hour we'll go over basics and set some learning goals along with a project that you'd like to work on. The second hour we'll schedule for one or two weeks later, giving you plenty of time to read the books and work on your project. Then in that second hour we'll go over what you've been working on, and work through any parts of the project that you've struggled with.
+You'll also get 3 hours of tutoring. I recommend breaking the 3 hours up into one-hour chunks. In the first hour we'll go over basics and set some learning goals along with a project that you'd like to work on. We'll schedule each of the sessions one or two weeks apart, giving you plenty of time to read the books and work on your project. In the second hour we'll go over what you've been working on, and work through any parts of the project that you've struggled with. In the third hour we'll follow up on your learning objectives and I'll help you come up with some next steps for your project and learning goals.
 
 ### The community:
 There will also be a forum available to you that you can use to discuss your project and what you are learning with others who are at a similar experience level. We'll be able to work as a group in the forum to solve problems, evaluate approaches and libraries, and provide feedback on your work.
