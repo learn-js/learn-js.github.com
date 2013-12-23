@@ -5,7 +5,7 @@ published: true
 layout: post
 ---
 
-In this brief post we'll take a look at using express, a popular web app framework for node.js, with browserify, a tool for bundling javascript modules written in node.js style for the browser.
+In this brief post we'll take a look at using [express](https://github.com/visionmedia/express), a popular web app framework for node.js, with [browserify](https://github.com/substack/node-browserify), a tool for bundling javascript modules written in node.js style for the browser.
 
 ### There are a couple primary options:
 - bundle your client-side code as a build step that happens before you deploy the project.
