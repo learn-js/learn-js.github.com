@@ -847,6 +847,7 @@ code {
   border: 1px solid #dadad8;
   font-size: 16px;
   border-radius: 3px;
+  white-space: nowrap
 }
 
 pre, pre.prettyprint {
@@ -861,9 +862,10 @@ pre, pre.prettyprint {
 
 pre.prettyprint code,
 pre code {
- background-color: none;
- border: 0px;
- padding: 0px;
+  background-color: none;
+  border: 0px;
+  padding: 0px;
+  white-space: pre;
 }
 
 .blog .inner-wrapper {
