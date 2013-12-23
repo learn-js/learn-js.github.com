@@ -91,6 +91,12 @@ Beefy is a great tool for running a development server that will automatically r
 
 A plugin for using browserify with grunt.
 
+### chem
+[github.com/superjoe30/chem](https://github.com/superjoe30/chem/)
+
+
+Canvas-based game engine and toolchain optimized for rapid development. Chem uses browserify to compile your code. Check out some of the [useful npm packages for games](https://github.com/hughsk/game-modules/wiki/Modules).
+
 
 ## Comparisons to similar tools
 
