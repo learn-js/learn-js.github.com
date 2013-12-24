@@ -20,7 +20,7 @@ Create a package.json file with the `npm init` command.
 Install the dependencies we'll use for developing the application:
 
 ```
-npm install --save express
+npm install --save express ejs
 npm install --save-dev browserify watchify nodemon
 ```
 
