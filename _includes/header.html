@@ -1,18 +1,5 @@
-<header 
-
-{% if page.header != 'big' and post.header != 'big' %}
-
-class="small">
+<header class="small">
   <a href="{{ site.baseurl }}/">
     <img id="badge-logo" src="{{ site.baseurl }}/img/badge-logo.png">
   </a>
-
-{% else %}
-
-class="big">
-  <a href="#introduction">
-    <img id="badge-logo" src="{{ site.baseurl }}/img/badge-logo.png">
-  </a> 
-  <h1>Learn.js: javascript and node.js by example</h1>
-{% endif %}
 </header>

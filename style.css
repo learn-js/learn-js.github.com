@@ -836,10 +836,9 @@ nav#primary li {
 }
 
 nav#primary li a {
-  padding: 10px 20px;
+  padding: 10px 5px;
   line-height: 20px;
 }
-
 
 code {
   padding: 5px 10px;
@@ -933,6 +932,10 @@ pre code {
   header.small p.subhead {
     float: right;
     margin-top: 8px;
+  }
+
+  nav#primary li a {
+    padding: 10px 15px;
   }
 
   section#description h1 {
