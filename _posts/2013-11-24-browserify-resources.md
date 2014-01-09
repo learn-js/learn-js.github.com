@@ -91,6 +91,11 @@ Beefy is a great tool for running a development server that will automatically r
 
 A plugin for using browserify with grunt.
 
+### gulp-browserify
+[github.com/deepak1556/gulp-browserify](https://github.com/deepak1556/gulp-browserify)
+
+A plugin for using browserify with gulp.
+
 ### chem
 [github.com/superjoe30/chem](https://github.com/superjoe30/chem/)
 
