@@ -1,6 +1,6 @@
 ---
-title: "On making simple games super fast with crtrdg.js"
-slug: simple-games-super-fast
+title: "On making simple games quickly with crtrdg.js"
+slug: making-simple-games-quickly
 published: true
 layout: post
 ---
