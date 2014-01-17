@@ -1,5 +1,5 @@
 ---
-title: "Making simple games super fast"
+title: "On making simple games super fast with crtrdg.js"
 slug: simple-games-super-fast
 published: true
 layout: post
