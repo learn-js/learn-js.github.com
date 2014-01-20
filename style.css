@@ -4,10 +4,8 @@ input,
 button,
 select,
 textarea {
-  font: 17px/1.5 "Roboto", "Helvetica Neue", Helvetica, arial, sans-serif;
+  font: 17px/1.7 "Roboto", "Helvetica Neue", Helvetica, arial, sans-serif;
   color: #333;
-  -webkit-font-smoothing: antialiased;
-  font-smoothing: antialiased;
   font-weight: 300;
 }
 
@@ -815,7 +813,7 @@ button.buy:focus,
 }
 
 .post-content {
-  margin-top: 10px;
+  margin-top: 30px;
   margin-bottom: 30px;
 }
 
