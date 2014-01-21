@@ -1,5 +1,5 @@
 ---
-layout: static
+layout: book
 title: 'Learn.js #2: making 2d games with node.js and browserify'
 name: Learn.js #2
 description: making 2d games with node.js and browserify.
@@ -19,7 +19,7 @@ description: making 2d games with node.js and browserify.
 </div>
 
 ## Learn.js #2
-### making 2d games with node.js and browserify.
+### Making 2d games with node.js and browserify.
 
 _This is an early release of the book, which is currently under active development. Buy it now and you'll get all updates for free! You'll also be able to help guide the direction of the book by requesting content additions and providing feedback._
 

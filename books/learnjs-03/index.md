@@ -1,5 +1,5 @@
 ---
-layout: static
+layout: book
 title: 'Learn.js #3: Mapping with Leaflet.js'
 name: Learn.js #3
 description: mapping with leaflet.js.
@@ -19,7 +19,7 @@ description: mapping with leaflet.js.
 </div>
 
 ## Learn.js #3
-### mapping with leaflet.js.
+### Mapping with leaflet.js.
 
 _I'm releasing this book a few chapters at a time in part to get feedback from you about what topics you'd like to see in the book. Buy it now and you'll get all updates for free! You'll also be able to help guide the direction of the book by requesting content additions and providing feedback._
 

@@ -666,6 +666,17 @@ img.author {
   margin-bottom: 30px;
 }
 
+.book-page h2 {
+  font-weight: 300;
+  margin-top: 0px;
+}
+
+.book-page h3 {
+  font-size: 30px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
 .book {
   display: inline-block;
   margin: 0px 10px 30px 10px;

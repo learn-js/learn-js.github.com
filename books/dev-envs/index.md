@@ -1,5 +1,5 @@
 ---
-layout: static
+layout: book
 title: Development environments for beginners
 description: Learn to set up development environments for ruby, javascript, and python.
 ---
