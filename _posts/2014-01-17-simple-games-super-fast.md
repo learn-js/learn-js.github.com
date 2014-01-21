@@ -29,4 +29,8 @@ I'll be including a chapter on how to make pong in the next update to the Learn.
 
 [Pre-order the 2d games book for $10](http://gum.co/learnjs02) or the [4-book bundle of the Learn.js series for $25](http://gum.co/bundle01) to get updates as they are released.
 
+<a href="http://gum.co/bundle01" class="buy button">Buy the 4-book Learn.js bundle - $25</a>
+
+<a href="http://gum.co/learnjs01" class="buy button">Buy the Learn.js Intro to JS book - $10</a>
+
 I'd love to hear about the types of games or other projects you're working on, or that you'd like to make. Hit me up at hi@learnjs.io!
