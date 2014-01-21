@@ -80,8 +80,8 @@ Add the rework-npm-cli command to the start script in the package.json file so i
 
 ```
 "scripts": {
-    "bundle": "rework-npm source.css -o bundle.css"
-  },
+  "bundle": "rework-npm source.css -o bundle.css"
+},
 ```
 
 Now we can run `npm run bundle` to generate a bundle.css file.
@@ -307,9 +307,9 @@ Now let's add in another command line tool to minify the css.
 First, revise the bundle script in the package.json file to pipe the output of `myth` to the `cleancss` command:
 
 ```
- "scripts": {
-    "bundle": "rework-npm source.css | myth | cleancss -o bundle.css"
-  },
+"scripts": {
+  "bundle": "rework-npm source.css | myth | cleancss -o bundle.css"
+},
 ```
 
 Now, run `npm run bundle` again, and your bundle.css file is now minified!
@@ -332,7 +332,7 @@ Next, add a `start` script to the scripts field in your package.json file:
 "start": "nodemon -e css --ignore bundle.css --exec 'npm run bundle'"
 ```
 
-This watches all files with an extensions of css, and executes the `npm run bundle` command each time a css file is changed. We ignore bundle.css because otherwise we'd likely get stuck in a loop of updating files.
+This watches all files with an extension of css, and executes the `npm run bundle` command each time a css file is changed. We ignore bundle.css because otherwise we'd likely get stuck in a loop of updating files.
 
 Run `npm start` and edit the source.css file. Every time you save you'll see the bundle.css file update with your new changes!
 
