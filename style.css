@@ -391,6 +391,7 @@ p.just-the-book {
 
 .release-early h2 {
   text-align: center;
+  margin-bottom: 30px;
 }
 
 #subscribe {
@@ -659,8 +660,10 @@ img.author {
 
 #books h3 {
   text-align: left;
-  font-size: 18px;
-  margin-bottom: 10px;
+  font-size: 27px;
+  font-weight: 300;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .book {
