@@ -77,6 +77,7 @@ rework-npm source.css -o bundle.css
 ```
 
 Add the rework-npm-cli command to the start script in the package.json file so it looks like this:
+
 ```
 "scripts": {
     "bundle": "rework-npm source.css -o bundle.css"
@@ -331,7 +332,7 @@ Next, add a `start` script to the scripts field in your package.json file:
 "start": "nodemon -e css --ignore bundle.css --exec 'npm run bundle'"
 ```
 
-This watches all files with a prefix of css, and executes the `npm run bundle` command each time a css file is changed. We ignore bundle.css because otherwise we'd likely get stuck in a loop of updating files.
+This watches all files with an extensions of css, and executes the `npm run bundle` command each time a css file is changed. We ignore bundle.css because otherwise we'd likely get stuck in a loop of updating files.
 
 Run `npm start` and edit the source.css file. Every time you save you'll see the bundle.css file update with your new changes!
 
