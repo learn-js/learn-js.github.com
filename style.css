@@ -4,7 +4,7 @@ input,
 button,
 select,
 textarea {
-  font: 17px/1.7 "Roboto", "Helvetica Neue", Helvetica, arial, sans-serif;
+  font: 17px/1.8 "Roboto", "Helvetica Neue", Helvetica, arial, sans-serif;
   color: #333;
   font-weight: 300;
 }
@@ -12,10 +12,6 @@ textarea {
 body,
 html {
   height: 100%;
-}
-
-body.no-top-border {
-  border-top: 0px;
 }
 
 * { 
@@ -32,7 +28,7 @@ h5,
 h6 {
   font-weight: 500;
   margin: 0px;
-  line-height: 1.2;
+  line-height: 1.3;
 }
 
 h2,
@@ -43,8 +39,10 @@ h6 {
   margin-top: 55px;
 }
 
-h2 {
-  font-weight: 700;
+h1, h2 {
+  margin-bottom: 15px;
+  font-weight: 900;
+  letter-spacing: -1px;
 }
 
 p {
@@ -75,6 +73,14 @@ hr {
   text-align: center;
 }
 
+header {
+  background-color: #f2f2f0;
+  color: #525250;
+  padding: 12px 0px 10px 0px;
+  border-bottom: 1px solid #e2e2e0;
+  margin-bottom: 0px;
+}
+
 .container {
   width: 100%;
   margin: 0px auto;
@@ -84,10 +90,6 @@ hr {
 .inner-wrapper {
   width: 100%;
   padding: 50px 0px 0px 0px;
-}
-
-header {
-  background-image: url('img/splash.jpg');
 }
 
 header img#badge-logo {
@@ -167,6 +169,57 @@ header.small p.subhead {
 
 header.small p.author {
   display: none;
+}
+
+#banner {
+  background: url(/img/sea.jpg) no-repeat left top fixed; 
+  background-size: cover;
+  height: 250px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#banner h2 {
+  font-weight: 100;
+  font-size: 30px;
+  padding-top: 40px;
+  margin-top: 0px;
+}
+
+#banner h2 b {
+  color: #fff;
+  font-weight: 900;
+  font-size: 1.1em;
+}
+
+a.button.white {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 3px;
+  color: #323230;
+  display: inline-block;
+  padding: 5px 12px;
+  margin-top: 15px;
+}
+
+a.button.white:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+@media (min-width: 500px){
+  #banner {
+    height: 290px;
+  }
+
+  #banner h2 {
+    font-size: 40px;
+    padding-top: 35px;
+  }
+}
+
+#primary-menu {
+  margin-bottom: 0px;
 }
 
 a.superbigtree {

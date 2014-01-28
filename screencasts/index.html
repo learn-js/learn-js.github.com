@@ -1,11 +1,11 @@
 ---
 layout: blog
-title: Blog
+title: Screencasts
 ---
 
 <div class="posts">
   {% for post in site.posts %}
-    {% if post.published and post.type == 'post' %}
+    {% if post.published and post.type == 'screencast' %}
       <div class="post" id="{{ post.slug }}">
         <div class="post-date">{{ post.date | date: "%-d %B %Y" }}</div>
         <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
@@ -14,4 +14,9 @@ title: Blog
       </div>
     {% endif %}
   {% endfor %}
+
+  {% if !site.posts %}
+  	<h1>Screencasts are coming soon!</h1>
+  	<p>Sign up for our newsletter to be the first to know about the new screencast releases.</p>
+  {% endif %}
 </div>
