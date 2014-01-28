@@ -476,17 +476,17 @@ p.just-the-book {
   text-align: center;
 }
 
-#subscribe input.email {
+input.email {
   border: 1px solid #ccc;
   display: inline-block;
   outline: none;
   width: 170px;
-  padding: 13px 15px;
+  padding: 10px 15px;
   vertical-align: top;
   margin-bottom: 15px;
 }
 
-#subscribe input.email:focus {
+input.email:focus {
   border: 1px solid #aaa;
 }
 
