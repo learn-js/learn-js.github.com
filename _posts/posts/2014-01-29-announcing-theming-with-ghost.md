@@ -48,4 +48,24 @@ Seth Vincent writes code, stories, and music. He's an independent programmer, de
 <p>
 <a href="https://gumroad.com/l/theming-with-ghost" class="button buy" target="blank">Pre-order Theming with Ghost - $15</a>
 </p>
-### The price goes up to $25 on February 10.
+
+Or sign up for the Theming with Ghost newsletter to get notified when it's released:
+
+<!-- Begin MailChimp Signup Form -->
+<div id="mc_embed_signup">
+<form action="http://learnjs.us5.list-manage.com/subscribe/post?u=b5b4f7fda673e887e9380b619&amp;id=97a11664bf" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+<div class="mc-field-group">
+	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="your email address">
+	<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+</div>
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;"><input type="text" name="b_b5b4f7fda673e887e9380b619_97a11664bf" value=""></div>
+</form>
+</div>
+
+<!--End mc_embed_signup-->
+
+**The price goes up to $25 on February 10.**
