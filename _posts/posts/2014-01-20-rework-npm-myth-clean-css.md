@@ -4,6 +4,7 @@ slug: rework-npm-myth-clean-css
 published: true
 layout: post
 type: post
+npmrecipe: true
 ---
 
 In this tutorial we'll focus on bundling css that's published on npm using three modules:
@@ -340,11 +341,11 @@ Run `npm start` and edit the source.css file. Every time you save you'll see the
 ## More like this
 
 If you liked this post you might be interested in the Learn.js series of books.
-[Pre-order the Introduction to JavaScript & Node.js book for $10](http://gum.co/learnjs02) or the [4-book bundle of the Learn.js series for $25](http://gum.co/bundle01) to get updates as they are released.
+[Pre-order the Introduction to JavaScript & Node.js book for $15](http://gum.co/learnjs02) or the [4-book bundle of the Learn.js series for $38](http://gum.co/bundle01) to get updates as they are released.
 
-<a href="http://gum.co/bundle01" class="buy button">Buy the 4-book Learn.js bundle - $25</a>
+<a href="http://gum.co/bundle01" class="buy button">Buy the 4-book Learn.js bundle - $38</a>
 
-<a href="http://gum.co/learnjs01" class="buy button">Buy the Learn.js Intro to JS book - $10</a>
+<a href="http://gum.co/learnjs01" class="buy button">Buy the Learn.js Intro to JS book - $15</a>
 
 ## This post is open source
 [This post is open source](https://github.com/learn-js/learn-js.github.com/blob/master/_posts/2014-01-20-rework-npm-myth-clean-css.md). Fork and make fixes, or suggest changes by adding an issue: [github.com/learn-js/learn-js.github.com/issues](https://github.com/learn-js/learn-js.github.com/issues).

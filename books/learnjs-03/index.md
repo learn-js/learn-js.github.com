@@ -10,11 +10,12 @@ description: mapping with leaflet.js.
     <img src="{{ site.baseurl }}/img/books/learnjs-03-leaflet.png" />
     <p><strong>Learn.js #3:</strong> mapping with leaflet.js.</p>
 
-    <p><a class="button buy" href="http://gum.co/learnjs03?wanted=true">Purchase</a> <span class="price">$10</span></p>
+    <p><a class="button buy" href="http://gum.co/learnjs03?wanted=true">Purchase</a> <span class="price">$15</span></p>
   </a>
   <div id="meta">
     <p>Author: <b><a href="http://sethvincent.com" target="_blank">Seth Vincent</a></b>.</p>
-    <p>Current version: <b>0.1.0</b> – released Nov 18, 2013.</p>
+    <p>Currently at: <b>37 pages</b> / <b>5445 words</b>.</p>
+    <p>Current version: <b>0.2.0</b> – released February 3, 2014.</p>
   </div>
 </div>
 
@@ -30,15 +31,13 @@ We'll be using Leaflet.js as a module in the node.js/CommonJS style, utilizing b
 ### The reader
 The ideal reader for this book is someone who likes exploring, imagining, and inventing for themselves. You probably have some experience with javascript already, and you'd like to learn more about animation using the canvas tag, basic game development patterns, and gain intermediate skills in developing javascript modules that can be used on the server and in the browser.
 
-### Goals of the book
-You'll learn:  
+### The book covers:
 - The basics of creating maps with Leaflet.js.
 - Creating interactive, filterable maps.
 - Using alternate tilesets and image overlays with your maps.
 - Integrating maps with public APIs and datasets.
 - Using browserify to bundle node.js-style modules for the browser.
 - Intermediate node.js module creation and best practices.
-- Using developer tools like Git, GitHub, Chrome Dev Tools, Bower, npm, and Grunt.
 
 
 ### Free updates

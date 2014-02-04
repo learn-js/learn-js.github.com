@@ -10,11 +10,12 @@ description: making 2d games with node.js and browserify.
     <img src="{{ site.baseurl }}/img/books/learnjs-02-2dgames.png" />
     <p><strong>Learn.js #2:</strong> making 2d games with node.js and browserify.</p>
 
-    <p><a class="button buy" href="http://gum.co/learnjs02?wanted=true">Purchase</a> <span class="price">$10</span></p>
+    <p><a class="button buy" href="http://gum.co/learnjs02?wanted=true">Purchase</a> <span class="price">$15</span></p>
   </a>
   <div id="meta">
     <p>Author: <b><a href="http://sethvincent.com" target="_blank">Seth Vincent</a></b>.</p>
-    <p>Version: <b>0.1.0</b>.</p>
+    <p>Currently at: <b>38 pages</b> / <b>4913 words</b>.</p>
+    <p>Version: <b>0.3.0</b> - released February 3, 2014.</p>
   </div>
 </div>
 
@@ -34,8 +35,7 @@ Let's use the node.js module system and code patterns to build small, reusable g
 ### The reader
 The ideal reader for this book is someone who likes exploring, imagining, and inventing for themselves. You probably have some experience with javascript already, and you'd like to learn more about animation using the canvas tag, basic game development patterns, and gain intermediate skills in developing javascript modules that can be used on the server and in the browser.
 
-### Goals of the book
-You'll learn:  
+### The book covers: 
 - Basic game development fundamentals.
 - The use of js modules from npm for creating interactive content.
 - How to use the HTML5 canvas tag for animation and user interaction.

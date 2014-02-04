@@ -10,13 +10,12 @@ description: introduction to javascript.
     <img src="{{ site.baseurl }}/img/books/learnjs-01-intro.png" />
     <p><strong>Learn.js #1:</strong> introduction to javascript and node.js</p>
 
-    <p><a class="button buy" href="http://gum.co/learnjs01?wanted=true">Purchase</a> <span class="price">$10</span></p>
+    <p><a class="button buy" href="http://gum.co/learnjs01?wanted=true">Purchase</a> <span class="price">$15</span></p>
   </a>
   <div id="meta">
     <p>Author: <b><a href="http://sethvincent.com" target="_blank">Seth Vincent</a></b>.</p>
-    <p>Currently at: <b>102 pages</b> / <b>15,943 words</b>.</p>
-    <p>Version: <b>0.5.0</b> (<a href="#changelog">changelog</a>).</p>
-    <p>Last updated: <b>September 16, 2013</b>.</p>
+    <p>Currently at: <b>88 pages</b> / <b>12,918 words</b>.</p>
+    <p>Version: <b>0.7.0</b> - released February 3, 2014.</p>
   </div>
 </div>
 
@@ -35,8 +34,7 @@ As the first book in the series, Learn.js #1 is designed to get people up to spe
 The ideal reader for this book is someone who likes exploring, imagining, and inventing for themselves. You might even have some experience with javascript already. And that’s OK, because practicing, and even repetition is an important part of learning.
 
 
-### Goals of the book
-You'll learn:  
+### The book covers:
 - Javascript syntax, functions, data types, and programming patterns.
 - How to find and use Javascript libraries.
 - Using javascript to manipulate html elements.

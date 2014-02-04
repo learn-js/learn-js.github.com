@@ -886,6 +886,15 @@ button.buy:focus,
   height: auto;
 }
 
+ul.posts {
+  margin: 0px;
+  padding: 0px;
+}
+
+li.post {
+  list-style-type: none;
+}
+
 nav#primary ul {
   padding: 22px 0px 18px 0px;
   margin: 0px;

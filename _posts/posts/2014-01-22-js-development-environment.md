@@ -188,8 +188,8 @@ As a next step, take a look at [this tutorial on using Browserify with Express](
 ## More like this
 
 If you liked this post you might be interested in the Learn.js series of books.
-[Pre-order the Introduction to JavaScript & Node.js book for $10](http://gum.co/learnjs02) or the [4-book bundle of the Learn.js series for $25](http://gum.co/bundle01) to get updates as they are released.
+[Pre-order the Introduction to JavaScript & Node.js book for $15](http://gum.co/learnjs02) or the [4-book bundle of the Learn.js series for $38](http://gum.co/bundle01) to get updates as they are released.
 
-<a href="http://gum.co/bundle01" class="buy button">Buy the 4-book Learn.js bundle - $25</a>
+<a href="http://gum.co/bundle01" class="buy button">Buy the 4-book Learn.js bundle - $38</a>
 
-<a href="http://gum.co/learnjs01" class="buy button">Buy the Learn.js Intro to JS book - $10</a>
+<a href="http://gum.co/learnjs01" class="buy button">Buy the Learn.js Intro to JS book - $15</a>

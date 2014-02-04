@@ -6,28 +6,28 @@ books:
     - title: "Learn.js #1: introduction to javascript"
       image: learnjs-01-intro.png
       buy: http://gum.co/learnjs01
-      price: 10
+      price: 15
       slug: learnjs-01
       pages: 
 
     - title: "Learn.js #2: making 2d games with node.js"
       image: learnjs-02-2dgames.png
       buy: http://gum.co/learnjs02
-      price: 10
+      price: 15
       slug: learnjs-02
       pages: 
 
     - title: "Learn.js #3: mapping with leaflet.js"
       image: learnjs-03-leaflet.png
       buy: http://gum.co/learnjs03
-      price: 10
+      price: 15
       slug: learnjs-03
       pages: 
 
     - title: Development Environments for Beginners
       image: dev-envs.png
       buy: https://gumroad.com/l/dev-envs
-      price: 10
+      price: 15
       slug: dev-envs
       pages:
 

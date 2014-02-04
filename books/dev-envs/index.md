@@ -8,13 +8,12 @@ description: Learn to set up development environments for ruby, javascript, and 
     <img src="{{ site.baseurl }}/img/books/dev-envs.png" />
     <p><strong>Development environments for beginners</strong></p>
 
-    <p><a class="button buy" href="http://gum.co/dev-envs">Buy</a> <span class="price">$10</span></p>
+    <p><a class="button buy" href="http://gum.co/dev-envs">Buy</a> <span class="price">$15</span></p>
   </a>
   <div id="meta">
     <p>Author: <b><a href="http://sethvincent.com" target="_blank">Seth Vincent</a></b>.</p>
-    <p>Currently at: <b>89 pages</b>.</p>
-    <p>Version: <b>0.2.0</b>. (<a href="#changelog" alt="changelog">changelog</a>)</p>
-    <p>Last updated: <b>October 26, 2013</b>.</p>
+    <p>Currently at: <b>94 pages</b>.</p>
+    <p>Version: <b>0.3.0</b> - released February 3, 2014.</p>
   </div>
 </div>
 
@@ -34,7 +33,7 @@ By comparing ruby, python, and javascript development environments you'll get a 
 
 Maybe you'll learn that you want to work in all three, or two out of three. Whatever happens, you'll be able to use this guide as a reference if you need help remembering how to set up a development environment for any one of these three languages.
 
-### Main concepts you'll learn:
+### The book covers:
 - command-line tools
 - virtual machines
 - text editors
