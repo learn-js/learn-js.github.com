@@ -2,6 +2,7 @@
 layout: blog
 ---
 
+{% if post.published %}
 <article class="post" id="{{ post.slug }}">
   <div class="post-date">{{ page.date | date: "%-d %B %Y" }}</div>
 
@@ -20,4 +21,4 @@ layout: blog
 
   {% include bio-seth.html %}
 </article>
-
+{% endif %}

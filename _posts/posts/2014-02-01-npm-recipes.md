@@ -1,7 +1,7 @@
 ---
 title: "Introducing <i>npm recipes</i> as an introduction to JavaScript & Node.js"
 slug: npm-recipes-introduction
-published: true
+published: false
 layout: post
 type: post
 ---

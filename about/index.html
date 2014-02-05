@@ -1,22 +1,13 @@
 ---
 layout: blog
-title: Screencasts
+title: About Learn.js
 ---
 
 <div class="posts">
-  {% for post in site.posts %}
-    {% if post.published and post.type == 'screencast' %}
-      <div class="post" id="{{ post.slug }}">
-        <div class="post-date">{{ post.date | date: "%-d %B %Y" }}</div>
-        <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        <div class="post-excerpt">{{ post.excerpt | strip_html | truncate: 200 }}</div>
-        <p><a href="{{ post.url }}">Continue reading</a></p>
-      </div>
-    {% endif %}
-  {% endfor %}
+  <h1 class="post-title">About Learn.js</h1>
+    <p>The <i>Learn.js</i> book series is highly inspired by the <a href="https://leanpub.com/manifesto" target="_blank">lean publishing model</a>. I'm releasing the book early to get feedback from you, dear readers, so that together we can make the best book about javascript tools and libraries possible.</p>
 
-  {% if !site.posts %}
-  	<h1 class="post-title">Screencasts coming soon!</h1>
+    <p>I'll be releasing updates regularly up until each book is feature complete at v1.0.0. Help me determine what it will mean for a book to be feature complete by filling out a survey asking what development tools, libraries, and programming patterns you'd be most interested in seeing covered. Email me at <a href="mailto:hi@learnjs.io">hi@learnjs.io</a>.</p>
   	<p>Sign up for our newsletter to be the first to know about the new screencast releases:</p>
     <!-- Begin MailChimp Signup Form -->
 <div id="mc_embed_signup">
@@ -35,5 +26,4 @@ title: Screencasts
 </div>
 
 <!--End mc_embed_signup-->
-  {% endif %}
 </div>
