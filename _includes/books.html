@@ -27,7 +27,7 @@
             <h3>{{ book.title }}</h3>
             <p><a class="button buy" href="{{ book.buy }}">Pre-order</a> <span class="price">${{ book.price }}</span></p>
           </a>
-          <p style="width: 200px;"><a href="{{ site.baseurl }}/books/{{ book.slug }}">Early release scheduled for {{ book.release }}. Learn more.</a></p>
+          <p style="width: 200px;"><a href="{% if book.learnmore %}{{ book.learnmore }}{% else %}{{ site.baseurl }}/books/{{ book.slug }}{% endif %}">Early release scheduled for {{ book.release }}. Learn more.</a></p>
         </li>
       {% endfor %}
     </ul>
