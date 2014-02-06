@@ -1,0 +1,12 @@
+---
+---
+posts({ 
+  "posts": [
+    {% for post in site.posts %}
+      {% if post.published %}
+        {{ post | jsonify }},
+      {% endif %}
+    {% endfor %}
+    null
+  ]
+})
