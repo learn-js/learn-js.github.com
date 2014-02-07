@@ -847,6 +847,11 @@ button.buy:focus,
   margin-bottom: 50px;
 }
 
+.posts.small .post {
+  margin-bottom: 10px;
+  font-size: 19px;
+}
+
 .post-date {
   font-weight: 300;
   font-size: 0.7em;

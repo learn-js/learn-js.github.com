@@ -11,8 +11,8 @@ type: post
 There are over 50,000 modules on npm, so there's a wildly big number of opportunities for checking out how various npm modules can work together.
 
 ### Here are all the npm recipes published so far:
-
-<ul class="posts">
+<br>
+<ul class="posts small">
   {% for post in site.posts %}
     {% if post.published and post.npmrecipe %}
       <li class="post" id="{{ post.slug }}">
