@@ -30,11 +30,13 @@ For Windows machines, download git from the git website: [git-scm.com/downloads]
 
 ## Installing node.js
 
-I recommend using a tool called `nvm` for installing node.js if you're on mac or linux. It's very similar to the rbenv tool we used in the last chapter for installing ruby.
-
 If you're on Windows, install node.js using the .msi package on the nodejs.org downloads page: [http://nodejs.org/downloads](http://nodejs.org/downloads).
 
-**nvm:** [https://github.com/creationix/nvm](https://github.com/creationix/nvm).
+If you're using Mac or Linux, I recommend using a tool called [nvm](https://github.com/creationix/nvm) for installing node.js if you're on mac or linux. It's very similar to the rbenv tool we used in the last chapter for installing ruby.
+
+## If using `nvm`:
+
+> If using Windows, please skip ahead to the "JavaScript in the Browser" section
 
 We have git installed, so we can clone nvm to our home folder:
 
