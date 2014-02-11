@@ -35,4 +35,4 @@ Please consider supporting the project buy purchasing _Theming with Ghost_ here:
 
 <a href="https://gumroad.com/l/theming-with-ghost" target="_self" class="button buy">Buy Theming with Ghost</a>
 
-> Note that _Theming with Ghost_ isn't included in the Learn.js 4-book bundle. It's separate. [Learn more about our other books](/books).
+_Note that Theming with Ghost isn't included in the Learn.js 4-book bundle. It's separate. [Learn more about our other books](/books)._
