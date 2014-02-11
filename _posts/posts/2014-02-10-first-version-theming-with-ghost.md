@@ -1,5 +1,5 @@
 ---
-title: "First version of Theming with Ghost is released!"
+title: "First version of Theming with Ghost book is released!"
 slug: first-version-theming-with-ghost
 published: true
 layout: post
