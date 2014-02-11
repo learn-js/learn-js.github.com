@@ -9,6 +9,8 @@ npmrecipe: true
 
 I just released the first version of _Theming with Ghost_!
 
+_Theming with Ghost_ is a book for learning to develop themes for Ghost using modern front-end development tools and workflows.
+
 You can buy it now, and for the next 48 hours it'll still be at the discounted rate of $15.
 
 This first release includes the first 4 chapters and the full source code for a theme example that's meant as a landing page and blog for a product.
@@ -16,6 +18,8 @@ This first release includes the first 4 chapters and the full source code for a 
 I expect that I'll make revisions to that theme example in the future, but it's already very useful as a boilerplate that you can use to create new themes.
 
 As new chapters of the book are released there will be two additional themes released to those who purchased the book as well. The next update to _Theming with Ghost_ will come out on March 4.
+
+<a href="https://gumroad.com/l/theming-with-ghost" target="_self" class="button buy">Buy Theming with Ghost</a>
 
 Here's a changelog for this version:
 
@@ -34,5 +38,7 @@ This book is open source, so you can [find it on GitHub](https://github.com/lear
 Please consider supporting the project buy purchasing _Theming with Ghost_ here:
 
 <a href="https://gumroad.com/l/theming-with-ghost" target="_self" class="button buy">Buy Theming with Ghost</a>
+
+Learn more about the book at [themingwithghost.com](http://themingwithghost.com).
 
 _Note that Theming with Ghost isn't included in the Learn.js 4-book bundle. It's separate. [Learn more about our other books](/books)._
