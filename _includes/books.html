@@ -9,7 +9,7 @@
             <h3>{{ book.title }}</h3>
             <p><a class="button buy" href="{{ book.buy }}">Buy the book</a> <span class="price">${{ book.price }}</span></p>
           </a>
-          <p><a href="{{ site.baseurl }}/books/{{ book.slug }}">Learn more.</a></p>
+          <p><a href="{% if book.learnmore %}{{ book.learnmore }}{% else %}{{ site.baseurl }}/books/{{ book.slug }}{% endif %}">Learn more.</a></p>
         </li>
       {% endfor %}
     </ul>

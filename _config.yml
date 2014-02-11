@@ -31,12 +31,12 @@ books:
       slug: dev-envs
       pages:
 
-  upcoming:
-
     - title: Theming with Ghost
       image: theming-with-ghost.jpg
       buy: https://gumroad.com/l/theming-with-ghost
       price: 15
       slug: theming-with-ghost
-      release: February 10
       learnmore: http://themingwithghost.com
+
+  upcoming:
+
