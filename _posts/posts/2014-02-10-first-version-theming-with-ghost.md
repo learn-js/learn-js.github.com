@@ -4,7 +4,6 @@ slug: first-version-theming-with-ghost
 published: true
 layout: post
 type: post
-npmrecipe: true
 ---
 
 I just released the first version of _Theming with Ghost_!
