@@ -1,5 +1,5 @@
 ---
-title: "Create a Node.js app that uses content APIs & npm modules like hyperquest, director, & handlebars"
+title: "Create a Node.js app that consumes APIs & is composed of small modules"
 slug: hyperquest-director-handlebars-example-app
 published: true
 layout: post
