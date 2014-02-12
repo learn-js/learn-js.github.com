@@ -916,6 +916,7 @@ nav#primary li {
 nav#primary li a {
   padding: 10px 5px;
   line-height: 20px;
+  font-weight: 300;
 }
 
 code {
