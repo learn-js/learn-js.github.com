@@ -27,7 +27,7 @@ Answer the questions from the `npm init` prompt.
 
 ```
 var Backbone = require('backbone');
-var $ = require('jquery/dist/jquery')(window);
+var $ = require('jquery');
 Backbone.$ = $;
 
 module.exports = Backbone.View.extend({
@@ -44,24 +44,22 @@ module.exports = Backbone.View.extend({
 
 This should look familiar if you've used Backbone before, with the slight variation of exporting the view using module.exports.
 
-There's also the weird require statement for jQuery:
+In jQuery versions previous to v2.1.0, you would have to require it with a nasty line like this:
 
 ```
 var $ = require('jquery/dist/jquery')(window);
 ```
 
-We have to use the path to the actual jQuery build rather than just pass the module name, and specify `window` so that jQuery actually uses the window object. Otherwise, we'd get an annoying error like this:
+But now in 2.1.0 we can require the module like we would expect:
 
 ```
-Uncaught Error: jQuery requires a window with a document
+var $ = require('jquery');
 ```
-
-This require statement will likely get simpler in upcoming versions of jQuery.
 
 ### Create an index.js file with this code to use the module:
 
 ```  
-    var AppView = require('./app-view')
+    var AppView = require('./app-view');
 
     var appView = new AppView();
 ```
