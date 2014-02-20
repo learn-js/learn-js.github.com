@@ -67,6 +67,12 @@ A very useful tutorial showing the creation of animated SVG icons. A great rundo
 
 A good introductory post about using Snap.svg.
 
+### Using Snap.svg with Browserify
+
+[http://learnjs.io/blog/2014/02/20/using-snapsvg-with-browserify/](http://learnjs.io/blog/2014/02/20/using-snapsvg-with-browserify/)
+
+Interested in using Snap.svg with Browserify or Node.js? This gives an overview of how that can currently be done.
+
 ## Videos
 
 ### Getting Started with Snap.svg
