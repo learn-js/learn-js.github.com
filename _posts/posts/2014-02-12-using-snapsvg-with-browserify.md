@@ -1,7 +1,7 @@
 ---
 title: "Using Snap.svg with Browserify"
 slug: using-snapsvg-with-browserify
-published: false
+published: true
 layout: post
 type: post
 ---
