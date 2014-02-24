@@ -855,6 +855,7 @@ The views for this project are very similar to the examples we used above when d
 ### The layout.html view:
 
 ```
+{% raw %}
 <!doctype html>
 <html lang="en-us">
 <head>
@@ -877,11 +878,13 @@ The views for this project are very similar to the examples we used above when d
 
 </body>
 </html>
+{% endraw %}
 ```
 
 ### The index.html view:
 
 ```
+{% raw %}
 {{#extend "layout"}}
 
 {{#replace "body"}}
@@ -899,11 +902,13 @@ The views for this project are very similar to the examples we used above when d
 {{/replace}}
 
 {{/extend}}
+{% endraw %}
 ```
 
 ### The page.html view:
 
 ```
+{% raw %}
 {{#extend "layout"}}
 
 {{#replace "body"}}
@@ -919,6 +924,7 @@ The views for this project are very similar to the examples we used above when d
 {{/replace}}
 
 {{/extend}}
+{% endraw %}
 ```
 
 ### Creating the source.css file
