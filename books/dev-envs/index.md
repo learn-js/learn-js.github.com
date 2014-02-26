@@ -20,7 +20,7 @@ description: Learn to set up development environments for ruby, javascript, and 
 ## Development environments for beginners
 ### Set up ruby, javascript, and python development environments
 
-_This is an early release of a work-in-progress book. Buy it now and you'll get all updates for free! You'll also be able to help guide the direction of the book by requesting content additions and providing feedback._
+_Buy this book and you'll get all updates for free!_
 
 When I first started programming, learning the languages was the easy part compared to figuring out text editors, version control, testing, and all the different tools that come along with writing code for a real project.
 
