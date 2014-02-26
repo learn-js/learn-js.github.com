@@ -12,8 +12,8 @@ description: Learn to set up development environments for ruby, javascript, and 
   </a>
   <div id="meta">
     <p>Author: <b><a href="http://sethvincent.com" target="_blank">Seth Vincent</a></b>.</p>
-    <p>Currently at: <b>94 pages</b>.</p>
-    <p>Version: <b>0.3.0</b> - released February 3, 2014.</p>
+    <p>Currently at: <b>92 pages</b>.</p>
+    <p>Version: <b>0.4.0</b> - released February 26, 2014.</p>
   </div>
 </div>
 
@@ -46,7 +46,28 @@ Maybe you'll learn that you want to work in all three, or two out of three. What
 
 ### Changelog:
 
-## v0.2.0 - October 26, 2013
+### v0.4.0 – February 26, 2014
+- revise introduction
+- expand 02-whatisdevenv
+- improve windows instructions
+- add to vagrant section
+- update editors chapter
+- add resources to git section
+- change `DevEnvs` folder to `dev-envs`
+- add npm scripts info to javascript automating tasks section
+- update js import/require section
+- add resources to javascript section
+- the automating tasks sections of ruby & python chapters need actual content
+- add to ending summary.
+- fix typos and clean up resource link text styles
+
+### v0.3.0 - Feruary 3, 2014
+- add sublime text editor tips and small typo edits/revisions
+- add info about package control to sublime section
+- fixes from [suisea](https://github.com/suisea)
+- update git and javascript chapters
+
+### v0.2.0 - October 26, 2013
 - Expand terminal and vagrant sections
 - Add vagrant instructions to ruby, javascript, and python chapters
 
