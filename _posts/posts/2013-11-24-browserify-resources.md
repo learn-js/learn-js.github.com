@@ -17,6 +17,11 @@ These articles give a great introduction to using [Browserify](https://github.co
 
 The basics of writing modules for the browser using node.js core modules and modules from npm.
 
+### Sharing code between Node.js and the browser
+[https://blog.codecentric.de/en/2014/02/cross-platform-javascript/](https://blog.codecentric.de/en/2014/02/cross-platform-javascript/)
+
+A detailed introduction to Browserify and Grunt.js and how to leverage Browserify to write code that runs on Node.js and in the browser.
+
 ### Using npm on the client side
 [dontkry.com/posts/code/using-npm-on-the-client-side.html](http://dontkry.com/posts/code/using-npm-on-the-client-side.html)
 
@@ -41,7 +46,7 @@ A rundown of projects that have made developing with browserify more accessible 
 ### Browserify and the Universal Module Definition
 [dontkry.com/posts/code/browserify-and-the-universal-module-definition.html](http://dontkry.com/posts/code/browserify-and-the-universal-module-definition.html)
 
-An awesome look at the possibilities for using Browserify to bundle modules written in AMD, CommonJS/node.js, UMD, ECMAscript 6, and global modules. 
+An awesome look at the possibilities for using Browserify to bundle modules written in AMD, CommonJS/node.js, UMD, ECMAscript 6, and global modules.
 
 ### Standalone Browserify Builds
 [www.forbeslindesay.co.uk/post/46324645400/standalone-browserify-builds](http://www.forbeslindesay.co.uk/post/46324645400/standalone-browserify-builds)
