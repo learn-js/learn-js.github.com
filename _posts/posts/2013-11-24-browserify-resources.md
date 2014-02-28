@@ -165,6 +165,6 @@ Creator of Browserify James Halliday ([@substack](https://twitter.com/substack))
 
 
 ## Add resources
-[This post is open source](https://github.com/learn-js/learn-js.github.com/blob/master/_posts/2013-11-24-browserify-resources.md). Add new resources to this list by forking the repository, making changes and making a pull request. Here's the file in the site's repo: [github.com/learn-js/learn-js.github.com/blob/master/_posts/2013-11-24-browserify-resources.md](https://github.com/learn-js/learn-js.github.com/blob/master/_posts/2013-11-24-browserify-resources.md)
+[This post is open source](https://github.com/learn-js/learn-js.github.com/blob/master/_posts/posts/2013-11-24-browserify-resources.md). Add new resources to this list by forking the repository, making changes and making a pull request. Here's the file in the site's repo: [https://github.com/learn-js/learn-js.github.com/blob/master/_posts/posts/2013-11-24-browserify-resources.md](https://github.com/learn-js/learn-js.github.com/blob/master/_posts/posts/2013-11-24-browserify-resources.md)
 
 Or suggest a resource by adding an issue: [github.com/learn-js/learn-js.github.com/issues](https://github.com/learn-js/learn-js.github.com/issues).
