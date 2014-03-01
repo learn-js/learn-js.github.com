@@ -12,8 +12,8 @@ description: Learn to set up development environments for ruby, javascript, and 
   </a>
   <div id="meta">
     <p>Author: <b><a href="http://sethvincent.com" target="_blank">Seth Vincent</a></b>.</p>
-    <p>Currently at: <b>92 pages</b>.</p>
-    <p>Version: <b>0.4.0</b> - released February 26, 2014.</p>
+    <p>Currently at: <b>97 pages</b>.</p>
+    <p>Version: <b>0.4.1</b> - released February 28, 2014.</p>
   </div>
 </div>
 
@@ -45,6 +45,9 @@ Maybe you'll learn that you want to work in all three, or two out of three. What
 - intro to web frameworks
 
 ### Changelog:
+
+### v0.4.1 – February 28, 2014
+- small typo fixes
 
 ### v0.4.0 – February 26, 2014
 - revise introduction
