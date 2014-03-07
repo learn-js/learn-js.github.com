@@ -17,6 +17,11 @@ These articles give a great introduction to using [Browserify](https://github.co
 
 The basics of writing modules for the browser using node.js core modules and modules from npm.
 
+### Untangle Your JavaScript with Browserify
+[http://lincolnloop.com/blog/untangle-your-javascript-browserify](http://lincolnloop.com/blog/untangle-your-javascript-browserify/)
+
+A straightforward introduction to browserify, including integration with Grunt and Gulp.
+
 ### Sharing code between Node.js and the browser
 [https://blog.codecentric.de/en/2014/02/cross-platform-javascript/](https://blog.codecentric.de/en/2014/02/cross-platform-javascript/)
 
