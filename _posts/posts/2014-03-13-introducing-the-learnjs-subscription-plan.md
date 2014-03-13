@@ -1,5 +1,5 @@
 ---
-title: "Introducing the Learn.js Subscription plan"
+title: "Introducing Learn.js subscriptions: access all Learn.js books and upcoming screencasts "
 slug: introducing-the-learnjs-subscription-plan
 published: true
 layout: post
