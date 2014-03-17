@@ -1,44 +1,20 @@
 {
-  "name": "learn.js",
-  "description": "a guidebook to building projects with javascript.",
-  "homepage": "https://github.com/learn-js/learn-js.github.io",
+  "name": "learnjs.io",
   "author": {
     "name": "sethvincent",
     "email": "sethvincent@gmail.com",
     "url": "http://sethvincent.com"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/learn-js/learn-js.github.io.git"
-  },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/learn-js/learn-js.github.io/blob/master/LICENSE-MIT"
-    }
-  ],
-  "engines": {
-    "node": ">= 0.10.0"
+  "scripts": {
+    "start": ""
   },
   "devDependencies": {
-    "grunt": "~0.4.0",
-    "grunt-contrib-qunit": "~0.2.0",
-    "grunt-contrib-jshint": "~0.1.1",
-    "grunt-contrib-connect": "~0.1.2",
-    "grunt-contrib-livereload": "~0.1.2",
-    "grunt-regarde": "~0.1.1"
+    "watchify": "^0.6.2",
+    "rework-npm-cli": "0.0.1",
+    "myth": "^0.3.1",
+    "browserify": "^3.32.1"
   },
-  "keywords": [],
-  "books": [
-    {
-      "title": "Learn.js #1: introduction to javascript",
-      "image": "learnjs-01-intro.jpg",
-      "buy": "http://gum.co/learnjs01"
-    },
-    {
-      "title": "Development Environments for Beginners",
-      "image": "dev-envs.jpg",
-      "buy": "https://gumroad.com/l/dev-envs"
-    },
-  ]
+  "dependencies": {
+    "codemirror": "^3.22.0"
+  }
 }

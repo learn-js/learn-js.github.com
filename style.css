@@ -1,17 +1,21 @@
 html,
+body {
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+}
+
+html,
 body,
 input,
 button,
 select,
 textarea {
-  font: 17px/1.8 "Roboto", "Helvetica Neue", Helvetica, arial, sans-serif;
+  font: 17px/1.8 "Open Sans", "Helvetica Neue", Helvetica, arial, sans-serif;
   color: #333;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
   font-weight: 300;
-}
-
-body,
-html {
-  height: 100%;
 }
 
 * { 
@@ -72,101 +76,57 @@ hr {
 }
 
 header {
-  background-color: #f2f2f0;
+  background-color: #f6f5f4;
   color: #525250;
   padding: 12px 0px 10px 0px;
   border-bottom: 1px solid #e2e2e0;
-  margin-bottom: 0px;
+}
+
+header a {
+  color: #525250;
+}
+
+header a:hover {
+  color: #222220;
+}
+
+header .logo h1 {
+  font-size: 17px;
+  font-weight: 700;
+  margin: 0px;
+  display: inline;
+  height: 43px;
+  line-height: 43px;
+  letter-spacing: 0px;
+}
+
+header .menu {
+  margin: 0px;
+  padding: 0px;
+  float: right;
+}
+
+header .menu li {
+  display: inline-block;
+}
+
+header .menu li a {
+  font-weight: 300;
+}
+
+header .dashboard-menu-link,
+header .register-menu-link {
+  padding: 5px 10px;
+  background-color: #fff;
+  border: 1px solid #e2e2e0;
+  border-radius: 3px;
+  margin-right: 15px;
 }
 
 .container {
   width: 100%;
   margin: 0px auto;
   padding: 0px 20px;
-}
-
-.inner-wrapper {
-  width: 100%;
-  padding: 50px 0px 0px 0px;
-}
-
-header img#badge-logo {
-  width: 80%;
-  height: auto;
-  margin-top: 30%;
-}
-
-header.big {
-  text-align: center;
-  font-weight: 100;
-  margin-bottom: 50px;
-  height: 100%;
-}
-
-header h1 {
-  color: #F6DE1B;
-  font-size: 30px;
-  margin: 10px 10px 120px 10px;
-  font-weight: 100;
-}
-
-header.big img.logo {
-  display: block;
-  margin: 50px auto;
-  width: 75%;
-  height: auto;
-}
-
-@media (min-width: 600px){
-  header img#badge-logo {
-    width: 400px;
-    margin-top: 13%;
-  }
-}
-
-header.big p.subhead {
-  font-size: 17px;
-  line-height: 30px;
-  font-weight: 300;
-  color: #888;
-}
-
-header.big p.author {
-  text-transform: uppercase;
-  letter-spacing: 5px;
-  font-size: 10px;
-  font-weight: 500;
-  color: #666;
-}
-
-header.small {
-  margin-top: 0px;
-  text-align: left;
-  height: 120px;
-  padding-top: 15px;
-}
-
-header.small h1 {
-  display: none;
-}
-
-header.small img#badge-logo {
-  display: block;
-  margin: 0px auto;
-  width: 90px;
-  height: auto;
-}
-
-header.small p.subhead {
-  font-size: 12px;
-  font-weight: 300;
-  color: #888;
-  display: block;
-  margin-top: 8px;
-}
-
-header.small p.author {
-  display: none;
 }
 
 #banner {
@@ -996,21 +956,7 @@ pre code {
 
   .inner-wrapper {
     width: 100%;
-    padding: 50px 0px 0px 0px
-  }
-
-  header.big img.logo {
-    width: 400px;
-    height: auto;
-  }
-
-  header.small h1 {
-    float: left;
-  }
-
-  header.small p.subhead {
-    float: right;
-    margin-top: 8px;
+    padding: 50px 0px 0px 0px;
   }
 
   nav#primary li a {
@@ -1120,7 +1066,7 @@ pre code {
 
 @media only screen and (min-width: 960px) {
   .container {
-    width: 860px;
+    width: 800px;
   }
 
   .blog .inner-wrapper {
