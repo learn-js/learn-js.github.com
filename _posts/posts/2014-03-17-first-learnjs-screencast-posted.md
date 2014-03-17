@@ -1,5 +1,5 @@
 ---
-title: "First Learn.js Screencast is up: introduction to JavaScript data types"
+title: "First Learn.js screencast is up: introduction to JavaScript data types"
 slug: first-learnjs-screencast-posted-introduction-to-javascript-data-types
 published: true
 layout: post
