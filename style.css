@@ -42,7 +42,7 @@ h3 {
 
 h1, h2 {
   margin-bottom: 15px;
-  font-weight: 900;
+  font-weight: 700;
   letter-spacing: -1px;
 }
 
@@ -819,7 +819,8 @@ button.buy:focus,
   font-size: 0.7em;
 }
 
-.post-title {
+h1.post-title,
+h2.post-title {
   font-size: 50px;
   font-weight: 900;
   color: #444442;
