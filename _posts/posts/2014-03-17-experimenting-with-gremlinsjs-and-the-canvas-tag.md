@@ -6,7 +6,7 @@ layout: post
 type: post
 ---
 
-The [Gremlins.js](https://github.com/marmelab/gremlins.js) library is designed for [monkey testing]() (aka [fuzz testing]()) applications by "unleashing a horde of undisciplined gremlins" that click, scroll, and otherwise cause havoc in the app they are released in. They mimic actual events in the browser, creating click, keypress, and scroll events that can be used to check an application for weird random bugs that users might otherwise accidentally find.
+The [Gremlins.js](https://github.com/marmelab/gremlins.js) library is designed for [monkey testing](http://en.wikipedia.org/wiki/Monkey_test) (aka [fuzz testing](http://en.wikipedia.org/wiki/Fuzz_testing)) applications by "unleashing a horde of undisciplined gremlins" that click, scroll, and otherwise cause havoc in the app they are released in. They mimic actual events in the browser, creating click, keypress, and scroll events that can be used to check an application for weird random bugs that users might otherwise accidentally find.
 
 To learn more about Gremlins.js I decided to pair it with the [gameloop](https://github.com/sethvincent/gameloop) module, which is desgined for creating 2d canvas games, and see what kind of weirdness I could create with the two modules.
 
@@ -168,6 +168,23 @@ But in this case I want to unleash only gremlins that click, so I use the .greml
 ```
 
 I override the .showAction() method to create new boxes and increment the `clicks` variable. By default the gremlins will show a red circle where they click, by overriding in this way those red circles are hidden and we get to create box entities in the game.
+
+## Running this example
+
+To run this example, install beefy and browserify:
+
+```
+npm install -g beefy browserify
+```
+
+And run the beefy command:
+
+```
+beefy index.js:bundle.js --live
+```
+
+You can now go to `http://localhost:9966` to see this in action. This command assumes the code lives in a file named index.js. Beefy will automatically serve a minimal index.html file to the browser, which is convenient for small example projects like this.
+
 
 ## This is silly
 
