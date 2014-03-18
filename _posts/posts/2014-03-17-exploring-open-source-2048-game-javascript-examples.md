@@ -10,7 +10,7 @@ I spent a lot of time over the past few days playing this game called [2048](htt
 
 I liked playing this 2048 game. And it took more time and strategy than I expected, but I beat it.
 
-Now, I'm seeing new versions pop up, and it's a fun learning exercise to explore the source code of these games.
+Now I'm seeing new versions pop up, and it's a fun learning exercise to explore the source code of these games.
 
 ## 2048
 
