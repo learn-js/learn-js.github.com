@@ -10,7 +10,7 @@ books:
       slug: learnjs-01
       pages: 
 
-    - title: "Learn.js #2: making 2d games with node.js"
+    - title: "Making 2D JavaScript Games"
       image: learnjs-02-2dgames.jpg
       buy: http://gum.co/learnjs02
       price: 15
