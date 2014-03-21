@@ -140,9 +140,17 @@ Demo: [http://louhuang.com/2048-numberwang/](http://louhuang.com/2048-numberwang
 
 Source: [https://github.com/louh/2048-numberwang](https://github.com/louh/2048-numberwang)
 
+## Dropbox 2048
+
+Save your 2048 game scores to Dropbox. Nice example of Dropbox integration.
+
+Demo: [https://dropbox2048.site44.com/](https://dropbox2048.site44.com/)
+
+Source: [https://github.com/leah/2048](https://github.com/leah/2048)
+
 # There's more.
 
-2048 has been forked over 900 times, so there's likely other interesting versions of the game!
+2048 has been forked over 1500 times, so there's likely other interesting versions of the game!
 
 Find one that's super interesting? 
 
