@@ -17,6 +17,11 @@ These articles give a great introduction to using [Browserify](https://github.co
 
 The basics of writing modules for the browser using node.js core modules and modules from npm.
 
+### Browserify - Unix in the browser
+[thinkingonthinking.com/unix-in-the-browser](http://thinkingonthinking.com/unix-in-the-browser)
+
+A useful look at basic usage of Browserify.
+
 ### Untangle Your JavaScript with Browserify
 [http://lincolnloop.com/blog/untangle-your-javascript-browserify](http://lincolnloop.com/blog/untangle-your-javascript-browserify/)
 

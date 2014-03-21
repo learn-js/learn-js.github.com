@@ -52,6 +52,30 @@ Demo: [http://www.donaldguy.com/Flappy-Doge2048/](http://www.donaldguy.com/Flapp
 
 Source: [https://github.com/donaldguy/Flappy-Doge2048](https://github.com/donaldguy/Flappy-Doge2048)
 
+## 2048-Tetris
+
+It's 2048, but also it's Tetris!
+
+Demo: [http://prat0318.github.io/2048-tetris/](http://prat0318.github.io/2048-tetris/)
+
+Source: [https://github.com/prat0318/2048-tetris/](https://github.com/prat0318/2048-tetris/)
+
+## 2x2048
+
+Two player 2048!
+
+Demo: [http://instapainting.com/2x2048/index.html](http://instapainting.com/2x2048/index.html)
+
+Source: _Not found on GitHub!_ But you can view source on the demo.
+
+## 16384 Hex
+
+I really like this hexagon version of 2048.
+
+Demo: [http://rudradevbasak.github.io/16384_hex/](http://rudradevbasak.github.io/16384_hex/)
+
+Source: [https://github.com/rudradevbasak/16384_hex/](https://github.com/rudradevbasak/16384_hex/)
+
 ## 2048 1D
 A 1x21 game board. Silly easy.
 
