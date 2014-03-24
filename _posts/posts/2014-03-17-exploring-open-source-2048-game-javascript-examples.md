@@ -52,6 +52,14 @@ Demo: [http://www.donaldguy.com/Flappy-Doge2048/](http://www.donaldguy.com/Flapp
 
 Source: [https://github.com/donaldguy/Flappy-Doge2048](https://github.com/donaldguy/Flappy-Doge2048)
 
+## Tumblr 2048
+
+Play 2048, with the tiles replaced by gifs from Tumblr. Fun.
+
+Demo: [http://kevintcoughlin.com/tumblr-2048/](http://kevintcoughlin.com/tumblr-2048/)
+
+Source: [https://github.com/KevinTCoughlin/tumblr-2048](https://github.com/KevinTCoughlin/tumblr-2048)
+
 ## 2048-Tetris
 
 It's 2048, but also it's Tetris!
