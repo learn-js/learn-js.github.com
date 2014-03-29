@@ -162,7 +162,7 @@ Source: [https://github.com/leah/2048](https://github.com/leah/2048)
 
 Demo: [http://mike199515.free3v.com/1597/2.htm](http://mike199515.free3v.com/1597/2.htm)
 
-Source: Not available.
+Source: _Not found on GitHub!_ But you can view source on the demo.
 
 # There's more.
 
