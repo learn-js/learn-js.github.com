@@ -1,7 +1,7 @@
 ---
 title: "Using the Flatsheet API as replacement for Tabletop.js and Google Spreadsheets"
 slug: using-flatsheet-api-as-replacement-for-tabletopjs-google-spreadsheets
-published: false
+published: true
 layout: post
 type: post
 ---
