@@ -9,7 +9,7 @@ npmrecipe: true
 
 > This post is part of the **[npm recipes](http://learnjs.io/npm-recipes)** series, where we explore the thousands of npm modules one "recipe" at a time.
 
-The goal for this post is to create a server-side Node.js application that pulls data from a content API and serves it to the browser as HTML. We'll use the API of a [LocalWiki](http://localwiki.org) site, [SeattleWiki.net](http://SeattleWiki.net), as the content API.
+The goal for this post is to create a server-side Node.js application that pulls data from a content API and serves it to the browser as HTML. We'll use the API of [LocalWiki.net](http://localwiki.net), as the content API.
 
 First we'll run through example usage of each of the modules used in this project, then we'll build the actual application.
 
@@ -731,9 +731,9 @@ var hbsLayouts = require('handlebars-layouts')(Handlebars);
 
 ```
 var wiki = {
-  name: 'SeattleWiki.net',
-  url: 'http://seattlewiki.net',
-  api: 'http://seattlewiki.net/api/'
+  name: 'Seattle LocalWiki',
+  url: 'http://localwiki.net/seattle/',
+  api: 'http://localwiki.net/api/v4/'
 }
 ```
 
