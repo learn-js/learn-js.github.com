@@ -156,6 +156,14 @@ Demo: [https://dropbox2048.site44.com/](https://dropbox2048.site44.com/)
 
 Source: [https://github.com/leah/2048](https://github.com/leah/2048)
 
+## 2584 Fibonacci
+
+2048 with Fibonaccis numbers.
+
+Demo: [http://mike199515.free3v.com/1597/2.htm](http://mike199515.free3v.com/1597/2.htm)
+
+Source: _Not found on GitHub!_ But you can view source on the demo.
+
 # There's more.
 
 2048 has been forked over 1500 times, so there's likely other interesting versions of the game!
