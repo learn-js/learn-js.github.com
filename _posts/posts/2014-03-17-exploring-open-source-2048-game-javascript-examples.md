@@ -164,6 +164,14 @@ Demo: [http://mike199515.free3v.com/1597/2.htm](http://mike199515.free3v.com/159
 
 Source: _Not found on GitHub!_ But you can view source on the demo.
 
+## 2048x5
+
+2048 in a 5 by 5 grid.
+
+Demo: [http://2048.kaivoslab.com/](http://2048.kaivoslab.com)
+
+Source: _Not found on GitHub!_ But you can view source on the demo.
+
 # There's more.
 
 2048 has been forked over 1500 times, so there's likely other interesting versions of the game!
