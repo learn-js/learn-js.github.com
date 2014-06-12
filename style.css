@@ -130,7 +130,7 @@ header .register-menu-link {
 }
 
 #banner {
-  background: url(/img/sea.jpg) no-repeat left top fixed; 
+  background: url(/img/tools.jpg) no-repeat left top; 
   background-size: cover;
   height: 250px;
   color: #fff;
@@ -172,7 +172,7 @@ a.button.white:hover {
 
   #banner h2 {
     font-size: 40px;
-    padding-top: 35px;
+    padding-top: 5px;
   }
 }
 
@@ -407,38 +407,31 @@ p.just-the-book {
 
 #subscribe {
   padding: 20px;
-  background: url("/img/bg.png");
-  -webkit-box-shadow: inset 0px 1px 5px 0px rgba(255, 255, 255, 1), inset 0px -1px 5px 0px rgba(255, 255, 255, 1), 0px 1px 1px 0px rgba(155, 155, 150, 0.1), 0px -1px 1px 0px rgba(155, 155, 150, 0.1);
-  box-shadow: inset 0px 1px 5px 0px rgba(255, 255, 255, 1), inset 0px -1px 5px 0px rgba(255, 255, 255, 1), 0px 1px 1px 0px rgba(155, 155, 150, 0.1), 0px -1px 1px 0px rgba(155, 155, 150, 0.1);
-  border: 1px solid #dedede;
   margin-top: 50px;
-  padding-bottom: 30px;
+  padding-bottom: 70px;
 }
 
 #subscribe h2 {
-  text-align: center;
   font-size: 35px;
   font-weight: 100;
-  margin-top: 20px;
+  margin-top: 5px;
   margin-bottom: 30px;
 }
 
 #subscribe h3 {
-  text-align: center;
   font-size: 18px;
   font-weight: 100;
   margin-bottom: 15px;
 }
 
 #subscribe div.inputs {
-  text-align: center;
 }
 
 input.email {
   border: 1px solid #ccc;
   display: inline-block;
   outline: none;
-  width: 170px;
+  width: 240px;
   padding: 10px 15px;
   vertical-align: top;
   margin-bottom: 15px;
@@ -455,6 +448,7 @@ input.button {
   background-color: #128a96;
   font-weight: 500;
   height: 52px;
+  font-size: 15px;
 }
 
 input.button:hover {
@@ -1103,7 +1097,7 @@ pre code {
 
   .book {
     display: inline-block;
-    margin: 0px 20px 30px 20px;
+    margin: 0px 40px 30px 40px;
   }
 
   #introduction h2 {
