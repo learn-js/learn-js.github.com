@@ -840,6 +840,10 @@ h2.post-title {
   font-size: 1em;
 }
 
+.post-excerpt {
+  padding-bottom: 10px;
+}
+
 .post-content {
   margin-top: 30px;
   margin-bottom: 30px;
