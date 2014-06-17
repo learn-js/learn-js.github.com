@@ -822,7 +822,9 @@ h2.post-title {
 }
 
 .posts .post-title {
-  margin-top: 0px;
+  margin-top: 2px;
+  font-size: 24px;
+  margin-bottom: 7px;
 }
 
 .posts .post-title a {
@@ -835,7 +837,7 @@ h2.post-title {
 
 .post-excerpt,
 .post-content {
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
 .post-content {
