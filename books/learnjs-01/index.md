@@ -14,8 +14,8 @@ description: introduction to javascript.
   </a>
   <div id="meta">
     <p>Author: <b><a href="http://sethvincent.com" target="_blank">Seth Vincent</a></b>.</p>
-    <p>Currently at: <b>88 pages</b> / <b>12,918 words</b>.</p>
-    <p>Version: <b>0.7.0</b> - released February 3, 2014.</p>
+    <p>Currently at: <b>92 pages</b> / <b>13,575 words</b>.</p>
+    <p>Version: <b>0.8.0</b> - released June 17, 2014.</p>
   </div>
 </div>
 

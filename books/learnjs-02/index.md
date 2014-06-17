@@ -14,8 +14,8 @@ description: 'You want to learn the best JavaScript tools for making 2D games. G
   </a>
   <div id="meta">
     <p>Author: <b><a href="http://sethvincent.com" target="_blank">Seth Vincent</a></b>.</p>
-    <p>Currently at: <b>38 pages</b> / <b>4923 words</b>.</p>
-    <p>Version: <b>0.3.0</b> - released February 3, 2014.</p>
+    <p>Currently at: <b>53 pages</b> / <b>6,977 words</b>.</p>
+    <p>Version: <b>0.5.0</b> - released June 12, 2014.</p>
   </div>
 </div>
 

@@ -14,8 +14,8 @@ description: mapping with leaflet.js.
   </a>
   <div id="meta">
     <p>Author: <b><a href="http://sethvincent.com" target="_blank">Seth Vincent</a></b>.</p>
-    <p>Currently at: <b>37 pages</b> / <b>5445 words</b>.</p>
-    <p>Current version: <b>0.2.0</b> – released February 3, 2014.</p>
+    <p>Currently at: <b>49 pages</b> / <b>7,223 words</b>.</p>
+    <p>Current version: <b>0.2.2</b> – released May 27, 2014.</p>
   </div>
 </div>
 
