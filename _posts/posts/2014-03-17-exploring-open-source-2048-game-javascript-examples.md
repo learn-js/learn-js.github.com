@@ -6,6 +6,11 @@ layout: post
 type: post
 ---
 
+<div class="highlight">
+  <h3>Interested in learning to make JavaScript games?</h3>
+  Check out our book <a href="http://learnjs.io/books/learnjs-02/">Making 2D Games with JavaScript</a>.
+</div>
+
 I spent a lot of time over the past few days playing this game called [2048](http://gabrielecirulli.github.io/2048/), which is a clone of a game called [1024](https://play.google.com/store/apps/details?id=com.veewo.a1024), which appears to be a clone of the game [Threes](http://asherv.com/threes/).
 
 I liked playing this 2048 game. And it took more time and strategy than I expected, but I beat it.
@@ -179,3 +184,8 @@ Source: _Not found on GitHub!_ But you can view source on the demo.
 Find one that's super interesting? 
 
 **Add it to the list here:** [https://github.com/learn-js/learn-js.github.com/blob/master/_posts/posts/2014-03-17-exploring-open-source-2048-game-javascript-examples.md](https://github.com/learn-js/learn-js.github.com/blob/master/_posts/posts/2014-03-17-exploring-open-source-2048-game-javascript-examples.md)
+
+<div class="highlight">
+  <h3>Interested in learning to make JavaScript games?</h3>
+  Check out our book <a href="http://learnjs.io/books/learnjs-02/">Making 2D Games with JavaScript</a>.
+</div>

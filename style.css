@@ -50,6 +50,15 @@ p {
   margin-top: 0px;
 }
 
+.highlight {
+  padding: 10px 15px;
+  background-color: #fafaf8;
+}
+
+.highlight h3 {
+  margin-top: 0px;
+}
+
 a {
   color: #128a96;
   text-decoration: none;
