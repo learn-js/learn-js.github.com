@@ -1,6 +1,5 @@
 permalink: /blog/:year/:month/:day/:title
 baseurl: ''
-markdown: redcarpet
 books:
   available:
     - title: "Learn.js #1: introduction to javascript"
