@@ -508,7 +508,7 @@ footer h1 {
 }
 
 section#workshops {
-  margin-top: 100px;
+  margin-top: 60px;
   text-align: center;  
 }
 
@@ -552,13 +552,14 @@ section.workshop ul li {
 }
 
 section.sign-up {
-  margin: 80px 0px 80px 0px;
+  margin: 80px 0px 30px 0px;
 }
 
-section.sign-up .container .inner {
+section.sign-up .container .event-wrapper {
   background-color: #128a96;
   color: #fff;
-  padding: 50px 30px 40px 30px;
+  padding: 20px 0px;
+  margin-bottom: 30px;
 }
 
 section.sign-up h1 {
@@ -571,13 +572,15 @@ section.sign-up h1 {
 section.sign-up h2 {
   text-transform: uppercase;
   line-height: 1;
+  margin-top: 10px;
 }
 
 section.sign-up h2 .day {
   display: block;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   font-size: 20px;
   text-align: center;
+  font-weight: 500;
 }
 
 section.sign-up h2 .month {
@@ -588,13 +591,8 @@ section.sign-up h2 .month {
 }
 
 section.sign-up .event {
-  margin: 50px auto 120px auto;
-  font-size: 120%;
+  margin: 20px auto 20px auto;
   text-align: center;
-}
-
-section.sign-up .event:last-child {
-  margin-bottom: 20px;
 }
 
 section.sign-up .event a {
@@ -605,10 +603,11 @@ section.sign-up .event a {
 }
 
 section.sign-up .event a:hover {
-  background-color: #7E2054;
+  background-color: #0A4C52;
 }
 
 section.sign-up .event h3 {
+  margin-top: 10px;
   margin-bottom: 2px;
 }
 
@@ -645,24 +644,14 @@ img.author {
   border: 1px solid #ececec;
   border-radius: 500px;
   margin: 0px auto;
-  width: 200px;
+  width: 120px;
   height: auto;
   display: block;
 }
 
 #workshop-newsletter {
   text-align: center;
-  margin-bottom: 120px
-}
-
-#workshop-newsletter input.email {
-  border: 1px solid #ccc;
-  display: inline-block;
-  outline: none;
-  width: 150px;
-  padding: 5px;
-  vertical-align: top;
-  margin-bottom: 15px;
+  margin-bottom: 60px
 }
 
 /* books */
@@ -778,7 +767,7 @@ button.buy:focus,
 #book button:focus,
 #book .button:hover, 
 #book .button:focus {
-  background-color: #7E2054;
+  background-color: #0A4C52;
 }
 
 #introduction h1 {
@@ -1053,7 +1042,7 @@ pre code {
   }
 
   section.sign-up .event {
-    width: 70%;
+    width: 90%;
     font-size: 120%;
   }
 
@@ -1071,7 +1060,7 @@ pre code {
 
   .person img {
     float: left;
-    margin-right: 40px;
+    margin-right: 20px;
   }
 }
 
@@ -1102,13 +1091,6 @@ pre code {
 
   .plans .book ul {
     margin-bottom: 52px;
-  }
-
-  section.sign-up h2 {
-    text-transform: uppercase;
-    float: left;
-    margin-right: 50px;
-    line-height: 1;
   }
 
   .book {
