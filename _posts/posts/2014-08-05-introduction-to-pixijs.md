@@ -6,8 +6,6 @@ layout: post
 type: post
 ---
 
-# Introduction to pixi.js
-
 Pixi.js is a wonderful library dedicated to serving as a fast and simple rendering engine. It can be used with a number of other JavaScript game libraries, and can do both canvas and WebGL rendering.
 
 In this chapter we go through a really simple introduction to using pixi.js. We'll draw a baby zombie image to the screen to show basic usage of the renderer, stage, sprite, and texture functionality of pixi.js.
