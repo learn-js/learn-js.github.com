@@ -1,6 +1,6 @@
 permalink: /blog/:year/:month/:day/:title
 baseurl: ''
-markdown: kramdown
+markdown: redcarpet
 books:
   available:
     - title: "Learn.js #1: introduction to javascript"
@@ -8,21 +8,21 @@ books:
       buy: http://gum.co/learnjs01
       price: 15
       slug: learnjs-01
-      pages: 
+      pages:
 
     - title: "Making 2D JavaScript Games"
       image: learnjs-02-2dgames.jpg
       buy: http://gum.co/learnjs02
       price: 15
       slug: learnjs-02
-      pages: 
+      pages:
 
     - title: "Learn.js #3: mapping with leaflet.js"
       image: learnjs-03-leaflet.jpg
       buy: http://gum.co/learnjs03
       price: 15
       slug: learnjs-03
-      pages: 
+      pages:
 
     - title: Development Environments for Beginners
       image: dev-envs.jpg
@@ -39,4 +39,3 @@ books:
       learnmore: http://themingwithghost.com
 
   upcoming:
-
