@@ -9,7 +9,7 @@ npmrecipe: true
 
 > This post is part of the **[npm recipes](http://learnjs.io/npm-recipes)** series, where we explore the thousands of npm modules one "recipe" at a time.
 
-The goal for this post is to create a server-side Node.js application that pulls data from a content API and serves it to the browser as HTML. We'll use the API of [LocalWiki.net](http://localwiki.net), as the content API.
+The goal for this tutorial is to create a server-side Node.js application that pulls data from a content API and serves it to the browser as HTML. We'll use the API of a [LocalWiki](http://localwiki.org) site, [SeattleWiki.net](http://SeattleWiki.net), as the content API.
 
 First we'll run through example usage of each of the modules used in this project, then we'll build the actual application.
 
@@ -20,7 +20,6 @@ First we'll run through example usage of each of the modules used in this projec
 - [handlebars-layouts](https://npmjs.org/package/handlebars-layouts) - so we can have jade/django style layouts using handlebars
 - [st](https://www.npmjs.org/package/st) - for serving static files
 - [event-stream](https://www.npmjs.org/package/event-stream) - for working with the data stream we get back from hyperquest
-- [combine-streams](https://www.npmjs.org/package/combine-streams) - for combining multiple streams into one
 - [rework-npm-cli](https://www.npmjs.org/package/rework-npm-cli) - for bundling css files
 - [myth](https://www.npmjs.org/package/myth) - a preprocessor for our css
 - [normalize-css](https://github.com/sethvincent/normalize-css) - reset the css for the browser
@@ -44,11 +43,12 @@ Here's an example:
 ```
 var request = require('hyperquest');
 
-var req = request('http://seattlewiki.net/api/page?format=json');
+var req = request('http://localwiki.net/api/v4/pages/?region__slug=seattle&tags=pizza&format=json');
 req.pipe(process.stdout);
 ```
 
-This will pipe the response from the SeattleWiki API to `process.stdout` (which console.log is an alias for in Node).
+This will pipe the response from the LocalWiki API to `process.stdout` (which console.log is an alias for in Node).
+Notice that we're requesting all pages from the `seattle` region tagged with `pizza` and asking for the response to be in the `json` format.
 
 ### director
 
@@ -61,7 +61,7 @@ var http = require('http');
 var director = require('director');
 
 var port = process.env.PORT || 3000;
-var router = 	new director.http.Router();
+var router =   new director.http.Router();
 
 var server = http.createServer(function(req, res){
   router.dispatch(req, res, function(err){
@@ -202,7 +202,7 @@ router.get('/', function(){
 
 server.listen(port);
 console.log('app running on http://127.0.0.1:' + port);
-```	
+```
 
 ### And here's the example described in chunks:
 
@@ -326,8 +326,8 @@ This line: `{% raw %}{{#block "body"}}{{/block}}{% endraw %}` defines a block th
 
 {{#replace "body"}}
 <div class="container">
-	<h1>{{page.title}}</h1>
-	<div>{{page.content}}</div>
+  <h1>{{page.title}}</h1>
+  <div>{{page.content}}</div>
 </div>
 {{/replace}}
 
@@ -365,42 +365,30 @@ Now when you go to `http://localhost:3000/example.txt` that file will be rendere
 var staticFiles = st({ path: __dirname + '/static', url: '/', index: false });
 ```
 
-### combine-streams & event-stream
-
-The combine-streams module is great for doing what it says: combining streams.
+### event-stream
 
 The event-stream module has a few uses, and in this case we'll be using its `wait()` method to wait until an end of a stream so that we can process the data that's coming in all at once.
 
-### Here's an example that integrates combine-streams and event-stream with hyperquest:
+### Here's an example that integrates shows event-stream usage along with hyperquest:
 
 ```
 var request = require('hyperquest');
-var combine = require('combine-streams');
 var wait = require('event-stream').wait;
 
-var wiki = 'http://seattlewiki.net/api/';
+var api = 'http://localwiki.net/api/v4/';
+var tag = 'pizza';
+var pagesRequest = request(api + 'pages/?region__slug=seattle&tags=' + tag + '&format=json');
 
-var id ='pizza';
-var tagRequest = request(wiki + 'tag/' + id + '?format=json');
-var pagesRequest = request(wiki + 'page/?page_tags__tags__slug=' + id + '&limit=0&format=json');
-
-combine()
-  .append(tagRequest)
-  .append(' -^- ')
-  .append(pagesRequest)
-  .append(null)
+pagesRequest
   .pipe(wait(function(err, data){
-    var arr = data.split(' -^- ');
-    var tag = JSON.parse(arr[0]);
-    var pages = JSON.parse(arr[1]).objects;
+    var pages = JSON.parse(data).results;
 
     var pageTitles = '';
     for (var i=0; i<pages.length; i++){
       pageTitles += pages[i].name + ', ';
     }
 
-    console.log('the tag: ' + tag.name);
-    console.log('pages tagged with this tag: ' + pageTitles);
+    console.log('pages tagged with ' + tag + ': ' + pageTitles);
   }));
 ```
 
@@ -410,53 +398,34 @@ combine()
 
 ```
 var request = require('hyperquest');
-var combine = require('combine-streams');
 var wait = require('event-stream').wait;
 ```
 
 Note that we're just using the `wait()` method from event-stream.
 
-**Set a `wiki` variable with the api url we'll be using and set the id of the resource we'll be requesting to `pizza`:**
+**Set an `api` variable with the api url we'll be using and set the name of the tag we'll be requesting to `pizza`:**
 
 ```
-var wiki = 'http://seattlewiki.net/api/';
-
-var id ='pizza';
-```
-
-**Make a request for the pizza tag and another request for all pages tagged with pizza:**
+var api = 'http://localwiki.net/api/v4/';
+var tag = 'pizza';
 
 ```
-var tagRequest = request(wiki + 'tag/' + id + '?format=json');
-var pagesRequest = request(wiki + 'page/?page_tags__tags__slug=' + id + '&limit=0&format=json');
-```
 
-**Use the `combine()` function to combine the two API response streams into one:**
+**Make a request for all pages tagged with pizza:**
 
 ```
-combine()
-  .append(tagRequest)
-  .append(' -^- ')
-  .append(pagesRequest)
-  .append(null)
+var pagesRequest = request(api + 'pages/?region__slug=seattle&tags=' + tag + '&format=json');
 ```
 
-The two confusing parts of this are `.append(' -^- ')` and `.append(null)`.
-
-`.append(null)` is required to indicate that we have appended all the streams that need to be appended.
-
-I'm using `.append(' -^- ')` as a separator between the two streams. This could be any other unique identifier that you could use to separate out the streams later. I also feel like there could be a better way to handle that, so if you have an idea, get at me ([email](mailto:hi@learnjs.io)/[twitter](http://twitter.com/sethdvincent)).
-
-**Pipe the combined streams:**
+**Pipe the response stream:**
 
 ```
-  .pipe(wait(function(err, data){
-    var arr = data.split(' -^- ');
-    var tag = JSON.parse(arr[0]);
-    var pages = JSON.parse(arr[1]).objects;
+  pagesRequest
+    .pipe(wait(function(err, data){
+      var pages = JSON.parse(data).results;
 ```
 
-The `data` argument we get back from the `wait` method is a string, so we can use the `split()` method to break up the tag and pages requests into two objects. Note that the pages we want are actually in an `objects` array sent back in the pages response;
+The `data` argument we get back from the `wait` is a string of JSON that needs to be parsed into a JavaScript object. The `results` property is an array of pages.
 
 **Print the response to the console:**
 
@@ -466,12 +435,11 @@ The `data` argument we get back from the `wait` method is a string, so we can us
       pageTitles += pages[i].name + ', ';
     }
 
-    console.log('the tag: ' + tag.name);
-    console.log('pages tagged with this tag: ' + pageTitles);
+    console.log('pages tagged with ' + tag + ': ' + pageTitles);
   }));
 ```
 
-For this example we're printing the name of the tag and the names of all the pages that are tagged with that tag to the console.
+For this example we're printing the names of all the pages that are tagged with pizza to the console.
 
 ### rework-npm-cli & myth
 
@@ -501,11 +469,19 @@ rework-npm source.css | myth > bundle.css
 
 These two modules expose css files that we can import and bundle using the `rework-npm` command.
 
-They can be included in a css file using the standard `@import` statement:
+Install them like any npm module:
 
 ```
-@import "normalize-css"
-@import "skelestyle-typography"
+npm install --save normalize-css skelestyle-typography
+```
+
+These css modules each have a `style` property in their package.json files that determine what css we can use.
+
+Import their css styles using the standard css `@import` statement:
+
+```
+@import "normalize-css";
+@import "skelestyle-typography";
 ```
 
 Then, using the `rework-npm` command, those files will be included into the bundle.css file:
@@ -518,7 +494,7 @@ rework-npm source.css -o bundle.css
 
 nodemon is a command-line tool for running node applications that restart when files are changed.
 
-Basic usage is just replaceing the `node` command with `nodemon`:
+Basic usage is just replacing the `node` command with `nodemon`:
 
 ```
 nodemon server.js
@@ -587,31 +563,24 @@ The `--save-dev` option saves the modules and their current version numbers to t
 **Install the project dependencies:**
 
 ```
-npm install --save hyperquest director handlebars handlebars-layouts st event-stream skelestyle-typography
+npm install --save hyperquest director handlebars handlebars-layouts st event-stream skelestyle-typography normalize-css
 ```
 
 The `--save` option saves the modules and their current version numbers to the `dependencies` field in the package.json file.
 
-**Install a dependency from GitHub:**
-
-```
-npm install --save sethvincent/normalize-css
-```
-
-You can use the owner/repo shorthand for downloading dependencies directly from GitHub. It's useful in this case because the fork of normalize.css in this repository makes it so we can use rework-npm to bundle css files.
 
 Your `dependencies` and `devDependencies` fields should now look like this:
 
 ```
 "dependencies": {
   "director": "~1.2.2",
+  "event-stream": "~3.1.0",
+  "handlebars": "~1.3.0",
   "handlebars-layouts": "~0.1.3",
   "hyperquest": "~0.2.0",
-  "handlebars": "~1.3.0",
-  "event-stream": "~3.1.0",
+  "normalize-css": "^2.3.1",
   "skelestyle-typography": "0.0.4",
-  "st": "~0.2.5",
-  "normalize-css": "git://github.com/sethvincent/normalize-css"
+  "st": "~0.2.5"
 },
 "devDependencies": {
   "rework-npm-cli": "0.0.1",
@@ -632,15 +601,14 @@ var http = require('http');
 var st = require('st');
 var director = require('director');
 var request = require('hyperquest');
-var combine = require('combine-streams');
 var wait = require('event-stream').wait;
 var Handlebars = require('handlebars');
 var hbsLayouts = require('handlebars-layouts')(Handlebars);
 
 var wiki = {
-  name: 'SeattleWiki.net',
-  url: 'http://seattlewiki.net',
-  api: 'http://seattlewiki.net/api/'
+  name: 'Seattle LocalWiki',
+  url: 'http://localwiki.net/seattle',
+  api: 'http://localwiki.net/api/v4/'
 }
 
 Handlebars.registerPartial('layout', fs.readFileSync('views/layout.html').toString());
@@ -651,12 +619,12 @@ var templates = {
 }
 
 var port = process.env.PORT || 3000;
-var router =  new director.http.Router();
+var router =   new director.http.Router();
 var staticFiles = st({ path: __dirname + '/static', url: '/static', passthrough: true })
 
 var server = http.createServer(function(req, res){
 
-  /* 
+  /*
   * if the request is for a static file, handle it here
   */
   if (staticFiles(req, res)) return;
@@ -680,21 +648,17 @@ router.get('/', function(){
 
 router.get('/:id', function(id){
   var self = this;
-  var tagRequest = request(wiki.api + 'tag/' + id + '?format=json');
-  var pagesRequest = request(wiki.api + 'page/?page_tags__tags__slug=' + id + '&limit=0&format=json');
+  var pagesRequest = request(wiki.api + '/pages/?region__slug=seattle&tags=' + id + '&format=json');
 
-  combine()
-    .append(tagRequest)
-    .append(' -^- ')
-    .append(pagesRequest)
-    .append(null)
+  pagesRequest
     .pipe(wait(function(err, data){
-      var json = data.split(' -^- ');
-      var html = templates.page({ 
-        wiki: wiki, 
-        tag: JSON.parse(json[0]), 
-        pages: JSON.parse(json[1]).objects 
+
+      var html = templates.page({
+        wiki: wiki,
+        tag: id,
+        pages: JSON.parse(data).results
       });
+
       self.res.writeHead(200, { 'Content-Type': 'text/html' });
       self.res.end(html);
     }));
@@ -709,6 +673,7 @@ console.log('app running on http://127.0.0.1:' + port);
 function getView(file){
   return Handlebars.compile(fs.readFileSync('./views/' + file + '.html').toString());
 }
+
 ```
 
 ### Here's the server.js file broken into chunks and explained:
@@ -721,7 +686,6 @@ var http = require('http');
 var st = require('st');
 var director = require('director');
 var request = require('hyperquest');
-var combine = require('combine-streams');
 var wait = require('event-stream').wait;
 var Handlebars = require('handlebars');
 var hbsLayouts = require('handlebars-layouts')(Handlebars);
@@ -732,9 +696,9 @@ var hbsLayouts = require('handlebars-layouts')(Handlebars);
 ```
 var wiki = {
   name: 'Seattle LocalWiki',
-  url: 'http://localwiki.net/seattle/',
+  url: 'http://localwiki.net/seattle',
   api: 'http://localwiki.net/api/v4/'
-}
+};
 ```
 
 **Register the layout partial:**
@@ -749,7 +713,7 @@ Handlebars.registerPartial('layout', fs.readFileSync('views/layout.html').toStri
 var templates = {
   index: getView('index'),
   page: getView('page')
-}
+};
 ```
 
 We'll look at the `getView()` helper function later in the code.
@@ -759,7 +723,7 @@ We'll look at the `getView()` helper function later in the code.
 ```
 var port = process.env.PORT || 3000;
 var router =  new director.http.Router();
-var staticFiles = st({ path: __dirname + '/static', url: '/static', passthrough: true })
+var staticFiles = st({ path: __dirname + '/static', url: '/static', passthrough: true });
 ```
 
 **Create the server:**
@@ -767,7 +731,7 @@ var staticFiles = st({ path: __dirname + '/static', url: '/static', passthrough:
 ```
 var server = http.createServer(function(req, res){
 
-  /* 
+  /*
   * if the request is for a static file, handle it here
   */
   if (staticFiles(req, res)) return;
@@ -801,34 +765,30 @@ router.get('/', function(){
 ```
 router.get('/:id', function(id){
   var self = this;
-  var tagRequest = request(wiki.api + 'tag/' + id + '?format=json');
-  var pagesRequest = request(wiki.api + 'page/?page_tags__tags__slug=' + id + '&limit=0&format=json');
+  var pagesRequest = request(wiki.api + '/pages/?region__slug=seattle&tags=' + id + '&format=json');
 ```
 
 We use `id` as a parameter that's used in the requests we send to the wiki API.
 
-**Combine the responses from the API, use the `template.page()` function to build the HTML that's sent to the browser:**
+** Request the pages from the API, use the `template.page()` function to build the HTML that's sent to the browser:**
 
 ```
-  combine()
-    .append(tagRequest)
-    .append(' -^- ')
-    .append(pagesRequest)
-    .append(null)
+  pagesRequest
     .pipe(wait(function(err, data){
-      var json = data.split(' -^- ');
-      var html = templates.page({ 
-        wiki: wiki, 
-        tag: JSON.parse(json[0]), 
-        pages: JSON.parse(json[1]).objects 
+
+      var html = templates.page({
+        wiki: wiki,
+        tag: id,
+        pages: JSON.parse(data).results
       });
+
       self.res.writeHead(200, { 'Content-Type': 'text/html' });
       self.res.end(html);
     }));
 });
 ```
 
-Like in the combine-streams example above, this section takes the string we get in the `data` argument, and breaks it into an array, then the two items are parsed and added to the object along with the `wiki` that's passed into the `templates.page()` function to build the HTML that's sent to the browser.
+Like in the event-stream example above, this section takes the string we get in the `data` argument, parses the JSON, and is added to the object along with the `wiki` that's passed into the `templates.page()` function to build the HTML that's sent to the browser.
 
 **Start the server and print a message to the console:**
 
@@ -855,12 +815,11 @@ The views for this project are very similar to the examples we used above when d
 ### The layout.html view:
 
 ```
-{% raw %}
 <!doctype html>
 <html lang="en-us">
 <head>
 {{#block "head"}}
-  <title>{{title}}</title>
+  <title>{{ wiki.name }}</title>
   <link rel="stylesheet" href="/static/bundle.css">
 {{/block}}
 </head>
@@ -868,7 +827,7 @@ The views for this project are very similar to the examples we used above when d
 
 <header>
   <div class="container">
-    <h1><a href="/">Pages on SeattleWiki</a></h1>
+    <h1><a href="/">Pages on {{ wiki.name }}</a></h1>
   </div>
 </header>
 
@@ -878,18 +837,16 @@ The views for this project are very similar to the examples we used above when d
 
 </body>
 </html>
-{% endraw %}
 ```
 
 ### The index.html view:
 
 ```
-{% raw %}
 {{#extend "layout"}}
 
 {{#replace "body"}}
 <div class="container">
-  <p>Check out some of the pages on SeattleWiki.net!</p>
+  <p>Check out some of the pages on the {{ wiki.name }}!</p>
   <div id="tags">
     <h2>Here are some examples:</h2>
     <ul>
@@ -902,19 +859,17 @@ The views for this project are very similar to the examples we used above when d
 {{/replace}}
 
 {{/extend}}
-{% endraw %}
 ```
 
 ### The page.html view:
 
 ```
-{% raw %}
 {{#extend "layout"}}
 
 {{#replace "body"}}
 <div class="container">
   <h1>{{ tag.name }}</h1>
-  <p>All the pages on <a href="{{ wiki.url }}">{{ wiki.name }}</a> tagged with {{ tag.name }}</p>
+  <p>All pages on the <a href="{{ wiki.url }}">{{ wiki.name }}</a> tagged with <b>{{ tag }}</b>.</p>
   <div id="pages">
     {{#each pages}}
     <h2><a href="{{ ../wiki.url }}/{{ name }}" target="_blank">{{name}}</a></h2>
@@ -924,7 +879,6 @@ The views for this project are very similar to the examples we used above when d
 {{/replace}}
 
 {{/extend}}
-{% endraw %}
 ```
 
 ### Creating the source.css file
