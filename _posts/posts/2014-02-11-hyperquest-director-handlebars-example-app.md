@@ -7,7 +7,7 @@ type: post
 npmrecipe: true
 ---
 
-> **September 9, 2014 update:**
+> **September 7, 2014 update:**
 > This tutorial now works with the [localwiki.net api](http://localwiki.net/api/v4/) that the Seattle LocalWiki now uses.
 
 > This post is part of the **[npm recipes](http://learnjs.io/npm-recipes)** series, where we explore the thousands of npm modules one "recipe" at a time.
