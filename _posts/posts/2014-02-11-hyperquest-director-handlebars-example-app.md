@@ -12,7 +12,7 @@ npmrecipe: true
 
 > This post is part of the **[npm recipes](http://learnjs.io/npm-recipes)** series, where we explore the thousands of npm modules one "recipe" at a time.
 
-The goal for this tutorial is to create a server-side Node.js application that pulls data from a content API and serves it to the browser as HTML. We'll use the API of a [LocalWiki](http://localwiki.org) site, [SeattleWiki.net](http://SeattleWiki.net), as the content API.
+The goal for this tutorial is to create a server-side Node.js application that pulls data from a content API and serves it to the browser as HTML. We'll use the API of a the [Seattle LocalWiki](http://localwiki.net/seattle) as the content API. Learn more about the API here: http://localwiki.net/api/v4/
 
 First we'll run through example usage of each of the modules used in this project, then we'll build the actual application.
 
