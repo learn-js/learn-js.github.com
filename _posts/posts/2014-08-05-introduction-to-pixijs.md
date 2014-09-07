@@ -196,7 +196,7 @@ So you'll be able to go to [http://localhost:9966/](http://localhost:9966/) in y
 
 <br>
 
-<div class="highlight">
+<div class="discover">
   <h3>Interested in learning to make JavaScript games?</h3>
 
   <p>This is an excerpt from our book <i>Making 2D JavaScript Games</i>. You can purchase it alone, or bundled with all our other books & screencasts.</p>

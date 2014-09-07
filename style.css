@@ -18,9 +18,9 @@ textarea {
   font-weight: 300;
 }
 
-* { 
-  -moz-box-sizing: border-box; 
-  -webkit-box-sizing: border-box; 
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -50,13 +50,13 @@ p {
   margin-top: 0px;
 }
 
-.highlight {
+.discover {
   padding: 10px 15px;
   margin: 10px 0px 20px 0px;
   background-color: #fafaf8;
 }
 
-.highlight h3 {
+.discover h3 {
   margin-top: 0px;
 }
 
@@ -140,7 +140,7 @@ header .register-menu-link {
 }
 
 #banner {
-  background: url(/img/tools.jpg) no-repeat left top; 
+  background: url(/img/tools.jpg) no-repeat left top;
   background-size: cover;
   height: 250px;
   color: #fff;
@@ -272,7 +272,7 @@ section#book a.button {
   font-size: 18px;
 }
 
-section#book a.button:hover, 
+section#book a.button:hover,
 section#book a.button:focus {
   background-color: #7E2054;
   color: #fff;
@@ -287,7 +287,7 @@ section#book .cover-wrapper {
 }
 
 section#book .cover-wrapper #main-cover {
-  width:100%; 
+  width:100%;
   margin-bottom:10px;
 }
 
@@ -384,7 +384,7 @@ section#buy h1 {
   font-size: 18px;
 }
 
-.plans .plan a.button:hover, 
+.plans .plan a.button:hover,
 .plans .plan a.button:focus {
   background-color: #7E2054;
   color: #fff;
@@ -509,7 +509,7 @@ footer h1 {
 
 section#workshops {
   margin-top: 60px;
-  text-align: center;  
+  text-align: center;
 }
 
 section#workshops h1 {
@@ -755,17 +755,17 @@ button.buy,
   text-shadow: none;
 }
 
-button.buy:hover, 
+button.buy:hover,
 button.buy:focus,
-.button.buy:hover, 
+.button.buy:hover,
 .button.buy:focus,
-.book button:hover, 
+.book button:hover,
 .book button:focus,
-.book .button:hover, 
+.book .button:hover,
 .book .button:focus,
-#book button:hover, 
+#book button:hover,
 #book button:focus,
-#book .button:hover, 
+#book .button:hover,
 #book .button:focus {
   background-color: #0A4C52;
 }
@@ -888,7 +888,9 @@ code {
   white-space: nowrap
 }
 
-pre, pre.prettyprint {
+pre,
+pre.prettyprint
+.highlight pre {
   font-size: 15px;
   padding: 10px 15px;
   background-color: #fcfcfa;
@@ -898,8 +900,9 @@ pre, pre.prettyprint {
   margin-bottom: 35px;
 }
 
+pre code,
 pre.prettyprint code,
-pre code {
+.highlight pre code {
   background-color: none;
   border: 0px;
   padding: 0px;
