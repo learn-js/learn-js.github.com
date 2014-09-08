@@ -4,6 +4,7 @@ title: Blog
 ---
 
 <div class="posts">
+  <h1>All posts</h1>
   {% for post in site.posts %}
     {% if post.published and post.type == 'post' %}
       <div class="post" id="{{ post.slug }}">

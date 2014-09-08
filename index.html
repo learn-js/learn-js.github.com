@@ -1,21 +1,33 @@
 ---
 layout: default
-header: big
 title: Learn Javascript and Node.js through books and tutorials
 ---
-<div id="banner">
-  <div style="padding-top:40px;"><i>Learn the tools of the trade.</i></div>
-  <h2>Get the first 4 Learn.js books:</h2> 
-  <h4>Introduction to JavaScript & Node.js, Making 2D JavaScript Games, <br>Mapping with Leaflet, & Development Environmens for Beginners</h4>
-  <a href="https://gumroad.com/l/bundle01" class="button white" target="blank">
-    Get the 4-book bundle - $45
-  </a>
+
+<div class="main blog">
+  <div class="container">
+
+    <div class="inner-wrapper">
+      <div class="posts">
+        <h1>Recent posts:</h1>
+        {% for post in site.posts limit: 5 %}
+          {% if post.published and post.type == 'post' %}
+            <div class="post" id="{{ post.slug }}">
+              <div class="post-date">{{ post.date | date: "%-d %B %Y" }}</div>
+              <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+              <div class="post-excerpt">{{ post.excerpt | strip_html | truncate: 250 }}</div>
+            </div>
+          {% endif %}
+        {% endfor %}
+        <a href="{{ site.baseurl }}/blog" class="button wide">More posts!</a>
+      </div>
+
+    </div>
+
+    {% include sidebar.html %}
+  </div>
 </div>
 
+<br>
+<hr>
+
 {% include newsletter.html %}
-
-{% include books.html %}
-
-{% include details.html %}
-
-{% include about.html %}

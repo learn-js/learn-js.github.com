@@ -776,6 +776,29 @@ button.buy:focus,
   background-color: #0A4C52;
 }
 
+button.wide,
+.button.wide {
+  background-color: #128a96;
+  text-decoration: none;
+  padding: 15px 25px;
+  text-align: center;
+  color: #fff;
+  display: block;
+  font-size: 18px;
+  border: 0px;
+  font-weight: 300;
+  cursor: pointer;
+  text-shadow: none;
+  width: 100%;
+}
+
+button.wide:hover,
+button.wide:focus,
+.button.wide:hover,
+.button.wide:focus {
+  background-color: #0A4C52;
+}
+
 #introduction h1 {
   text-align: center;
   font-weight: 100;
@@ -801,6 +824,20 @@ button.buy:focus,
   margin-top: 50px;
   border-top: 1px solid #f6f6f4;
   padding-top: 20px;
+}
+
+.posts h1 {
+  font-weight: 300;
+  color: #444442;
+  font-family: Lora, Georgia, serif;
+  font-style: italic;
+  text-transform: lowercase;
+  text-align: center;
+  font-size: 15px;
+  letter-spacing: 1px;
+  background-color: #FFFFee;
+  padding: 10px 8px;
+  margin-bottom: 50px;
 }
 
 .posts .post {
@@ -984,13 +1021,11 @@ pre.prettyprint code,
   }
 
   ul.goals {
-    width: 40%;
-    float: left;
+
   }
 
   div.author {
-    width: 45%;
-    float: right;
+
   }
 
   p.version-description {
