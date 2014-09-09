@@ -145,4 +145,4 @@ Want help learning about development environments? I'm working on a book that te
 </div>
 </div>
 
-Or learn more about the book at [developmentenvironments.com](http://developmentenvironments.com).
+You can also learn more about the book at [developmentenvironments.com](http://developmentenvironments.com).
