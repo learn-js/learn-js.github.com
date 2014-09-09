@@ -120,7 +120,8 @@ It is. Learning to set up a development environment can be the hardest part of l
 
 Want help learning about development environments? I'm working on a book that teaches how to set up Ruby, JavaScript, and Python development environments, the basics of using git, vagrant, and various text editors, and walks you through building simple web applications using each of the three languages.
 
-The book _Development Environments for Beginners_ is about to have it's first major release. You can find out about the release and get an early sample copy by signing up for the Learn.js newsletter:
+<div class="discover">
+<p>The book <i>Development Environments for Beginners</i> is about to have it's first major release. You can find out about the release and get an early sample copy by signing up for the Learn.js newsletter:</p>
 
 <div class="newsletter">
 <div id="mc_embed_signup">
@@ -140,6 +141,7 @@ The book _Development Environments for Beginners_ is about to have it's first ma
 </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 <div style="position: absolute; left: -5000px;"><input type="text" name="b_b5b4f7fda673e887e9380b619_3eb1d4ee40" tabindex="-1" value=""></div>
 </form>
+</div>
 </div>
 </div>
 
