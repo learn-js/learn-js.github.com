@@ -13,7 +13,9 @@ Before you release your project to the world wide web, you work on it in your de
 
 This is usually your laptop or desktop computer at home or work. It's the command-line tools, text editor, and other programs that work with your programming language of choice.
 
-## What's included?
+Learning to code is difficult, but learning about the wide array of tools involved with setting up a development environment is what makes it so difficult going from writing a little JavaScript on sites like Codecademy to building actual web projects.
+
+## What's included in a development environment?
 For programming languages like Ruby, JavaScript, and Python, a development environment usually includes these things:
 
 - Programming language
