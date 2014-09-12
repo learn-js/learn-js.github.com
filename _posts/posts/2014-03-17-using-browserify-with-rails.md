@@ -43,7 +43,7 @@ I added a few npm scripts to the package.json file:
 
 ```
 "scripts": {
-  "bundle": "browserify app/assets/javascripts/index.js -o app/assets/javascripts/bundle.js"
+  "bundle": "browserify app/assets/javascripts/index.js -o app/assets/javascripts/bundle.js",
   "watch-js": "watchify app/assets/javascripts/index.js -o app/assets/javascripts/bundle.js",
   "start": "npm run watch-js & rails s"
 },
@@ -74,7 +74,7 @@ In the `app/assets/javascripts/application.js` file I made it only require the b
     "watchify": "^0.6.2"
   },
   "scripts": {
-    "bundle": "browserify app/assets/javascripts/index.js -o app/assets/javascripts/bundle.js"
+    "bundle": "browserify app/assets/javascripts/index.js -o app/assets/javascripts/bundle.js",
     "watch-js": "watchify app/assets/javascripts/index.js -o app/assets/javascripts/bundle.js",
     "start": "npm run watch-js & rails s"
   },
