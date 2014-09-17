@@ -373,5 +373,7 @@ This gives you an idea of the API of gretro and how to integrate it with other m
 
 Learn more about gretro at [https://github.com/mohayonao/gretro](https://github.com/mohayonao/gretro), and at [the project's wiki](https://github.com/mohayonao/gretro/wiki).
 
+You can play with some cool examples of gretro usage here: [http://mohayonao.github.io/gretro/](http://mohayonao.github.io/gretro/)
+
 ## Your mission:
 Revise these examples to make something strange. And if you do, be sure to tell  me about it!
