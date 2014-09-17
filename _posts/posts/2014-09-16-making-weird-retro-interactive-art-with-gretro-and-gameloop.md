@@ -1,6 +1,6 @@
 ---
-title: "Making weird retro interactive art with gretro & gameloop"
-slug: making-weird-retro-interactive-art-with-gretro-and-gameloop
+title: "Making retro interactive art with gretro & gameloop"
+slug: making-retro-interactive-art-with-gretro-and-gameloop
 published: true
 layout: post
 type: post
