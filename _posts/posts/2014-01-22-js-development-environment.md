@@ -30,101 +30,11 @@ For Windows machines, download git from the git website: [git-scm.com/downloads]
 
 ## Installing node.js
 
-If you're on Windows, install node.js using the .msi package on the nodejs.org downloads page: [http://nodejs.org/downloads](http://nodejs.org/downloads).
+I recommend installing node.js directly from the nodejs.org website: [http://nodejs.org/downloads](http://nodejs.org/downloads).
 
-If you're using Mac or Linux, I recommend using a tool called [nvm](https://github.com/creationix/nvm) for installing node.js if you're on mac or linux. It's very similar to the rbenv tool we used in the last chapter for installing ruby.
+Choose the download package for your operating system.
 
-## If using `nvm`:
-
-> If using Windows, please skip ahead to the "JavaScript in the Browser" section
-
-We have git installed, so we can clone nvm to our home folder:
-
-~~~~~~~~
-git clone https://github.com/creationix/nvm.git ~/.nvm
-~~~~~~~~
-
-Source nvm to make it the `nvm` command available in the terminal:
-
-~~~~~~~~
-source ~/.nvm/nvm.sh
-~~~~~~~~
-
-To ensure that `nvm` is available at all times in the terminal, add the above line to your ~/.bashrc file:
-
-~~~~~~~~
-nano ~/.bashrc
-~~~~~~~~
-
-To get the `nvm` command after adding that line to your ~/.bashrc file, source your ~/.bashrc file:
-
-~~~~~~~~
-source ~/.bashrc
-~~~~~~~~
-
-To ensure `nvm` is working, run the command without options:
-
-~~~~~~~~
-nvm
-~~~~~~~~
-
-You should see output like this:
-
-~~~~~~~~
-Node Version Manager
-
-Usage:
-    nvm help                    Show this message
-    nvm install [-s] <version>  Download and install a <version>
-    nvm uninstall <version>     Uninstall a version
-    nvm use <version>           Modify PATH to use <version>
-    nvm run <version> [<args>]  Run <version> with <args> as arguments
-    nvm ls                      List installed versions
-    nvm ls <version>            List versions matching a given description
-    nvm ls-remote               List remote versions available for install
-    nvm deactivate              Undo effects of NVM on current shell
-    nvm alias [<pattern>]       Show all aliases beginning with <pattern>
-    nvm alias <name> <version>  Set an alias named <name> pointing to <version>
-    nvm unalias <name>          Deletes the alias named <name>
-    nvm copy-packages <version> Install global NPM packages contained in <version> to current version
-
-Example:
-    nvm install v0.4.12         Install a specific version number
-    nvm use 0.2                 Use the latest available 0.2.x release
-    nvm run 0.4.12 myApp.js     Run myApp.js using node v0.4.12
-    nvm alias default 0.4       Auto use the latest installed v0.4.x version
-~~~~~~~~
-
-The above help text gives a good overview of usage of the `nvm` command.
-
-
-### Now we install node.js
-
-Install the latest version of node v0.10.x:
-
-~~~~~~~~
-nvm install 0.10
-~~~~~~~~
-
-You'll see output like this:
-
-~~~~~~~~
-######################################################################## 100.0%
-Now using node v0.10.21
-~~~~~~~~
-
-We can switch to that new version using this command:
-
-~~~~~~~~
-nvm use 0.10.21
-~~~~~~~~
-
-And to set that version as the default, set the default alias:
-
-~~~~~~~~
-nvm alias default 0.10.21
-~~~~~~~~
-
+After installing on your computer, open your terminal and run `node --version`. If everything is installed correctly this should display the current version number for Node.js that you've installed.
 
 ## Javascript in the browser
 
