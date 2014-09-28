@@ -38,7 +38,7 @@ After installing on your computer, open your terminal and run `node --version`. 
 
 ## Javascript in the browser
 
-You don't need to install anything for javascript in the browser. The browser takes care of that for you. I recommend using Chrome for the examples in this book. Firefox is also excellent, and if you choose to use it, there will be just slight differences between the developer tools compared to Chrome.
+You don't need to install anything for javascript in the browser. The browser takes care of that for you. I recommend using Chrome for the tutorials on this site. Firefox is also excellent, and if you choose to use it, there will be just slight differences between the developer tools compared to Chrome.
 
 Download Chrome here: [https://www.google.com/intl/en/chrome/browser/](https://www.google.com/intl/en/chrome/browser/)
 
