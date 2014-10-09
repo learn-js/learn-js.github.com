@@ -978,13 +978,11 @@ pre.prettyprint code,
 
 .sidebar h5 {
   margin-top: 10px;
-  text-align: center;
+  font-size: 12px;
 }
 
 .sidebar h5.sidebar-button a {
-  border: 1px solid #dcdcda;
-  padding: 8px 10px;
-  background-color: #f9f9f7;
+  padding: 8px 0px;
   margin-bottom: 15px;
   display: block;
 }
@@ -993,7 +991,13 @@ pre.prettyprint code,
   width: 100%;
 }
 
+.promo {
+  margin-bottom: 20px;
+}
 
+.promo img {
+  width: 100%;
+}
 
 @media only screen and (min-width: 600px) {
   .container {
