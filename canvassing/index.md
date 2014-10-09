@@ -4,7 +4,10 @@ layout: book
 
 <img src="/img/canvassing/canvassing.jpg" alt="Canvassing" style="width:100%">
 
-# Canvassing: get awesome at using the HTML5 canvas tag for games & other creative coding
+<h1 style="font-weight: 300;text-align:center;">Canvassing</h1>
+<h2 style="text-align:center;">Get awesome at using the HTML5 canvas tag <br>for games & other creative coding</h2>
+
+<br>
 
 Learning to make games? Or weird internet art? Or maybe interactive infographics for news organizations or museums?
 
