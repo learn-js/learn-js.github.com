@@ -90,10 +90,6 @@ Benefit from in-person help to guide you through issues as you're learning? This
 
 ## Free companion tools/resources
 
-#### canvas-adventure
-
-Learn many of the concepts in the book through a command-line adventure game! The book and game work well together: try out real-world examples with the adventure game, learn in depth with the book!
-
 #### Online interactive workshops
 
 You can also work through many of the examples through interactive tutorials at learnjs.io/canvassing (not up yet, but soon!).
