@@ -6,8 +6,35 @@ layout: post
 type: post
 ---
 
+## Installation
 
 
+## The container element
+
+
+## The data
+
+
+## Options
+
+
+## Responsive options
+
+
+
+## Bar chart
+
+
+
+## Line chart
+
+
+
+## Pie chart
+
+
+
+## Changing values of chart with animation
 
 
 
