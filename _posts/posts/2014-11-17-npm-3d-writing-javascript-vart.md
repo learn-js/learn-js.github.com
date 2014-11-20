@@ -1,5 +1,5 @@
 ---
-title: "Learn.js: npm in 3d, a year of writing about JS, & learning art through JS "
+title: "npm in 3d, a year of writing about JS, & learning art through JS "
 slug: npm-3d-writing-javascript-vart
 published: true
 layout: post
