@@ -4,13 +4,15 @@
       <h2 id="available-books">Available books:</h2>
       {% for book in site.books.available %}
         <li class="book">
-          <a href="{{ book.buy }}" class="learn">
+          <a href="{{ book.buy }}">
             <img src="{{ site.baseurl }}/img/books/{{ book.image }}" />
             <h3>{{ book.title }}</h3>
-            <p><a class="button buy" href="{{ book.buy }}">Buy the book</a> <span class="price">${{ book.price }}</span></p>
           </a>
+            <p><a class="button buy" href="{{ book.buy }}">Buy the book</a> <span class="price">${{ book.price }}</span></p>
+          
           <p><a href="{% if book.learnmore %}{{ book.learnmore }}{% else %}{{ site.baseurl }}/books/{{ book.slug }}{% endif %}">Learn more.</a></p>
         </li>
+        <hr>
       {% endfor %}
     </ul>
   </div>

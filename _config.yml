@@ -1,9 +1,17 @@
 permalink: /blog/:year/:month/:day/:title
 baseurl: ''
 markdown: redcarpet
+exclude: [node_modules, tmp]
 books:
   available:
-    - title: "Learn.js #1: introduction to javascript"
+    - title: "Canvassing: Learn JavaScript & the HTML5 canvas tag"
+      image: canvassing.png
+      buy: http://learnjs.io/canvassing
+      price: 20
+      slug: canvassing
+      learnmore: http://learnjs.io/canvassing
+      
+    - title: "Introduction to JavaScript & Node.js"
       image: learnjs-01-intro.jpg
       buy: http://gum.co/learnjs01
       price: 15
@@ -17,7 +25,7 @@ books:
       slug: learnjs-02
       pages:
 
-    - title: "Learn.js #3: mapping with leaflet.js"
+    - title: "Mapping with leaflet.js"
       image: learnjs-03-leaflet.jpg
       buy: http://gum.co/learnjs03
       price: 15

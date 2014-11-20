@@ -663,7 +663,6 @@ img.author {
 /* books */
 
 #books ul {
-  text-align: center;
   margin: 30px 0px 0px;
   padding: 0px;
 }
@@ -688,20 +687,26 @@ img.author {
 }
 
 .book {
-  display: inline-block;
+  display: block;
   margin: 0px 10px 30px 10px;
   vertical-align: top;
+  clear: both;
+  min-height: 260px;
 }
 
 .book a.learn {
   display: block;
-  margin: 0px;
-  width: 240px;
+  margin: 0px 0px 20px 0px;
+  border-bottom: 1px solid #f2f2f0;
+  width: 100%;
 }
 
 .book img {
-  width: 100%;
+  width: 200px;
   height: auto;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 15px;
 }
 
 .book a.learn > p {
@@ -1139,11 +1144,6 @@ pre.prettyprint code,
 
   .plans .book ul {
     margin-bottom: 52px;
-  }
-
-  .book {
-    display: inline-block;
-    margin: 0px 40px 30px 40px;
   }
 
   #introduction h2 {
