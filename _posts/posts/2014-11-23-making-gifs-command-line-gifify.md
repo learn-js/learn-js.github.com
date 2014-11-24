@@ -1,5 +1,5 @@
 ---
-title: "Making GIFs on the command-line with gifify"
+title: "Making videos into GIFs on the command-line with gifify"
 slug: making-gifs-command-line-gifify
 published: true
 layout: post
