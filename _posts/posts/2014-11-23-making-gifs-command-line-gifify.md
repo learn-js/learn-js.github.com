@@ -104,7 +104,7 @@ Then run `gifify`:
 gifify video2.mov -o video.gif
 ```
 
-Here's an example of a gif I made from the video of one of the first games I've made:
+Here's an example of a gif I made using gifify from the video of one of my first JavaScript games:
 
 ![jumpbud](/img/jumpbud.gif)
 
