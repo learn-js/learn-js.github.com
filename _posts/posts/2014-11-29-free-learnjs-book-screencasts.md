@@ -1,6 +1,6 @@
 ---
 title: "Free Learn.js book & screencasts"
-published: false
+published: true
 layout: post
 type: post
 ---
