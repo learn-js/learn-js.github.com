@@ -14,7 +14,13 @@ title: Learn Javascript and Node.js through books and tutorials
             <div class="post" id="{{ post.slug }}">
               <div class="post-date">{{ post.date | date: "%-d %B %Y" }}</div>
               <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-              <div class="post-excerpt">{{ post.excerpt | strip_html | truncate: 250 }}</div>
+              <div class="post-excerpt">
+                {% if post.description %}
+                {{ post.description }}
+                {% else %}
+                {{ post.excerpt | strip_html | truncate: 250 }}
+                {% endif %}
+              </div>
             </div>
           {% endif %}
         {% endfor %}

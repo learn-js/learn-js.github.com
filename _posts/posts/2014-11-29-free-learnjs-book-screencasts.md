@@ -3,6 +3,7 @@ title: "Free Learn.js book & screencasts"
 published: true
 layout: post
 type: post
+description: "Pay what you like (including $0 if that's what you like) to get a free book and screencasts."
 ---
 
 ## npm recipes

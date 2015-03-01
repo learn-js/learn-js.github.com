@@ -4,6 +4,7 @@ slug: making-gifs-command-line-gifify
 published: true
 layout: post
 type: post
+description: "Making gifs from videos using the command-line is easy using gifify."
 ---
 
 I like making gifs.

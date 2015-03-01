@@ -4,6 +4,7 @@ slug: npm-3d-writing-javascript-vart
 published: true
 layout: post
 type: post
+description: "Learn about art and javascript, read about my year of writing javascript, and check out a 3d visualization of npm packages."
 ---
 
 ## npm in 3d

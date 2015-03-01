@@ -837,12 +837,11 @@ button.wide:focus,
   font-family: Lora, Georgia, serif;
   font-style: italic;
   text-transform: lowercase;
-  text-align: center;
-  font-size: 15px;
+  font-size: 20px;
   letter-spacing: 1px;
-  background-color: #FFFFee;
-  padding: 10px 8px;
-  margin-bottom: 50px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #fafaf8;
+  margin-bottom: 25px;
 }
 
 .posts .post {
