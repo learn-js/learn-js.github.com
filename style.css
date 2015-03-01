@@ -859,14 +859,6 @@ h1.page-title {
   font-size: 0.7em;
 }
 
-.post .post-date {
-  margin-top: -20px;
-}
-
-.posts .post-date {
-  margin-top: 0px;
-}
-
 h1.post-title,
 h2.post-title {
   font-size: 50px;
