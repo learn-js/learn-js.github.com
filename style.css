@@ -831,12 +831,12 @@ button.wide:focus,
   padding-top: 20px;
 }
 
-.posts h1 {
+.posts h1,
+h1.page-title {
   font-weight: 300;
   color: #444442;
   font-family: Lora, Georgia, serif;
   font-style: italic;
-  text-transform: lowercase;
   font-size: 20px;
   letter-spacing: 1px;
   padding-bottom: 10px;
@@ -857,6 +857,14 @@ button.wide:focus,
 .post-date {
   font-weight: 300;
   font-size: 0.7em;
+}
+
+.post .post-date {
+  margin-top: -20px;
+}
+
+.posts .post-date {
+  margin-top: 0px;
 }
 
 h1.post-title,
