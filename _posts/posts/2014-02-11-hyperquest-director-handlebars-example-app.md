@@ -986,21 +986,6 @@ The command `npm start` will get your server running, and you'll be able to acce
 
 This post is part of the **[npm recipes](http://learnjs.io/npm-recipes)** series. We're compiling the posts into a book.
 
-**Sign up for the Learn.js newsletter** and we'll send you the npm recipes book (and updates about new recipes) **for free**:
-
-<div id="mc_embed_signup">
-<form action="http://learnjs.us5.list-manage.com/subscribe/post?u=b5b4f7fda673e887e9380b619&amp;id=3eb1d4ee40" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-<div class="mc-field-group">
-  <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Your email">
-  <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
-</div>
-  <div id="mce-responses" class="clear">
-    <div class="response" id="mce-error-response" style="display:none"></div>
-    <div class="response" id="mce-success-response" style="display:none"></div>
-  </div>
-    <div style="position: absolute; left: -5000px;"><input type="text" name="b_b5b4f7fda673e887e9380b619_3eb1d4ee40" value=""></div>
-</form>
-</div>
 
 ### This post is open source
 [This post is open source](https://github.com/learn-js/learn-js.github.com/blob/master/_posts/2014-02-11-hyperquest-director-handlebars-example-app.md). Make revisions to this post by forking the repository, making changes and making a pull request. Here's the file in the site's repo: [github.com/learn-js/learn-js.github.com/blob/master/_posts/2014-02-11-hyperquest-director-handlebars-example-app.md](https://github.com/learn-js/learn-js.github.com/blob/master/_posts/2014-02-11-hyperquest-director-handlebars-example-app.md).
