@@ -24,18 +24,4 @@ There are over 50,000 modules on npm, so there's a wildly big number of opportun
 
 ### Interested in keeping up with new npm recipes? 
 
-Subscribe to the Learn.js newsletter to get updates:
-
-<div id="mc_embed_signup">
-<form action="http://learnjs.us5.list-manage.com/subscribe/post?u=b5b4f7fda673e887e9380b619&amp;id=3eb1d4ee40" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-<div class="mc-field-group">
-  <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Your email">
-  <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
-</div>
-  <div id="mce-responses" class="clear">
-    <div class="response" id="mce-error-response" style="display:none"></div>
-    <div class="response" id="mce-success-response" style="display:none"></div>
-  </div>
-    <div style="position: absolute; left: -5000px;"><input type="text" name="b_b5b4f7fda673e887e9380b619_3eb1d4ee40" value=""></div>
-</form>
-</div>
+<p>Get the book for free here: <a href="https://gumroad.com/l/npm-recipes">npm recipes</a></p>
