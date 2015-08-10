@@ -124,27 +124,6 @@ Want help learning about development environments? I'm working on a book that te
 
 <div class="discover">
 <p>The book <i>Development Environments for Beginners</i> is about to have it's first major release. You can find out about the release and get an early sample copy by signing up for the Learn.js newsletter:</p>
-
-<div class="newsletter">
-<div id="mc_embed_signup">
-<form action="//learnjs.us5.list-manage.com/subscribe/post?u=b5b4f7fda673e887e9380b619&amp;id=3eb1d4ee40" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-<div class="mc-field-group">
-<input type="hidden" value="devenvs" name="BOOKMERGE" class="" id="mce-BOOKMERGE">
-</div>
-<div class="mc-field-group">
-<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
-<div style="font-size:55%">You'll also get a free copy of the book <i>npm recipes</i> & subscribe to the Learn.js newsletter. <br> We won't send spam or sell your info.</div>
-</div>
-
-<div id="mce-responses" class="clear">
-<div class="response" id="mce-error-response" style="display:none"></div>
-<div class="response" id="mce-success-response" style="display:none"></div>
-</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-<div style="position: absolute; left: -5000px;"><input type="text" name="b_b5b4f7fda673e887e9380b619_3eb1d4ee40" tabindex="-1" value=""></div>
-</form>
-</div>
-</div>
 </div>
 
 You can also learn more about the book at [developmentenvironments.com](http://developmentenvironments.com).
