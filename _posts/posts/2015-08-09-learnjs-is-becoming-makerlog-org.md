@@ -3,7 +3,7 @@ title: "learnjs.io is becoming makerlog.org"
 published: true
 layout: post
 type: post
-description: "Over the next few weeks learnjs.io will become [makerlog.org](http://makerlog.org). The new site already exists, and the transition will be gradual. This is an exciting change for me, and I hope you'll stick around to enjoy all the upcoming awesome."
+description: "Over the next few weeks learnjs.io will become http://makerlog.org. The new site already exists, and the transition will be gradual. This is an exciting change for me, and I hope you'll stick around to enjoy all the upcoming awesome."
 ---
 
 Over the next few weeks learnjs.io will become [makerlog.org](http://makerlog.org). The new site already exists, and the transition will be gradual. This is an exciting change for me, and I hope you'll stick around to enjoy all the upcoming awesome.
