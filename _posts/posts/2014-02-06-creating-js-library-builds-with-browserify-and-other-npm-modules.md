@@ -224,19 +224,3 @@ In our case, pizza is a function that returns the string `Pizza`. For you, it mi
 Learn more about using npm scripts by taking a look at this article by the author of browserify: [task automation with npm run](http://substack.net/task_automation_with_npm_run).
 
 For an example of running similar tasks for bundling css that's packaged through npm, check out this article: [Using rework-npm for bundling css from npm along with myth and clean-css](http://learnjs.io/blog/2014/01/20/rework-npm-myth-clean-css/)
-
-Get more [npm recipes](http://learnjs.io/npm-recipes) delivered as part the Learn.js newsletter:
-
-<div id="mc_embed_signup">
-<form action="http://learnjs.us5.list-manage.com/subscribe/post?u=b5b4f7fda673e887e9380b619&amp;id=3eb1d4ee40" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-<div class="mc-field-group">
-  <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Your email">
-  <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
-</div>
-  <div id="mce-responses" class="clear">
-    <div class="response" id="mce-error-response" style="display:none"></div>
-    <div class="response" id="mce-success-response" style="display:none"></div>
-  </div>
-    <div style="position: absolute; left: -5000px;"><input type="text" name="b_b5b4f7fda673e887e9380b619_3eb1d4ee40" value=""></div>
-</form>
-</div>
