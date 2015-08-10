@@ -27,5 +27,6 @@ There are a few main changes you'll notice:
 - Posts will be appearing at [makerlog.org](http://makerlog.org)
 - New types of content will be included: interviews, screencasts, podcasts, live blogs, streaming, etc.
 - The Learn.js books will be re-released by Civic Maker Lab, with improved, expanded content. If you've already purchased a book you'll still get any updates for free.
+- Eventually all the Learn.js posts will be moved over and redirect to makerlog.org.
 
 <p><a href="http://makerlog.org" class="button">Check out makerlog.org!</a></p>
