@@ -1,6 +1,5 @@
-permalink: /blog/:year/:month/:day/:title
+permalink: /blog/:year/:month/:day/:title/
 baseurl: ''
-markdown: redcarpet
 exclude: [node_modules, tmp]
 gems:
   - jekyll-redirect-from
