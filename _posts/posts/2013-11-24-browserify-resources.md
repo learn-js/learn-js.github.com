@@ -4,6 +4,7 @@ slug: browserify-resources
 published: true
 layout: post
 type: post
+redirect_to: "http://makerlog.org/posts/browserify-resources"
 ---
 
 I've been using, reading, and writing about the development tool Browserify for a while, and thought it would be useful to compile some of the most useful resources for learning more about the tool.

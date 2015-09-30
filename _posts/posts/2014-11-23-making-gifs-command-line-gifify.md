@@ -5,6 +5,7 @@ published: true
 layout: post
 type: post
 description: "Making gifs from videos using the command-line is easy using gifify."
+redirect_to: "http://makerlog.org/posts/making-gifs-command-line-gifify"
 ---
 
 I like making gifs.

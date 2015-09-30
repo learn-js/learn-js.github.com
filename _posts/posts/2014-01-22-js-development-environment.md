@@ -4,6 +4,7 @@ slug: js-development-environment
 published: true
 layout: post
 type: post
+redirect_to: "http://makerlog.org/posts/js-development-environment"
 ---
 
 The most difficult part of getting started with a language isn't necessarily learning the syntax, data types, control structures, or other parts of the language itself. The hardest part is often learning the tools associated with the language's ecosystem. This tutorial provides a quick look at getting Node.js set up on your computer and using Node.js tools for both server and browser code.

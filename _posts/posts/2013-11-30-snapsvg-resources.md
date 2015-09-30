@@ -4,6 +4,7 @@ slug: snapsvg-resources
 published: true
 layout: post
 type: post
+redirect_to: "http://makerlog.org/posts/snapsvg-resources"
 ---
 
 # Snap.svg resources

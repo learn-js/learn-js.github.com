@@ -4,6 +4,7 @@ slug: backbone-jquery-browserify
 published: true
 layout: post
 type: post
+redirect_to: "http://makerlog.org/posts/backbone-jquery-browserify"
 ---
 
 Using browserify with modules from npm can be a little overwhelming at first, so what if we were able to use a couple of common front-end development libraries using along with browserify to ease the process of getting started? 

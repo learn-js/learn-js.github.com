@@ -4,6 +4,7 @@ slug: js-string-method-examples
 published: true
 layout: post
 type: post
+redirect_to: "http://makerlog.org/posts/js-string-method-examples"
 ---
 
 Here is a collection of common and useful string methods that exist in Javascript.

@@ -4,12 +4,8 @@ slug: exploring-open-source-2048-game-javascript-examples
 published: true
 layout: post
 type: post
+redirect_to: "http://makerlog.org/posts/exploring-open-source-2048-game-javascript-examples"
 ---
-
-<div class="discover">
-  <h3>Interested in learning to make JavaScript games?</h3>
-  Check out our book <a href="http://learnjs.io/books/learnjs-02/">Making 2D Games with JavaScript</a>.
-</div>
 
 I spent a lot of time over the past few days playing this game called [2048](http://gabrielecirulli.github.io/2048/), which is a clone of a game called [1024](https://play.google.com/store/apps/details?id=com.veewo.a1024), which appears to be a clone of the game [Threes](http://asherv.com/threes/).
 
@@ -181,11 +177,3 @@ Source: _Not found on GitHub!_ But you can view source on the demo.
 
 2048 has been forked over 1500 times, so there's likely other interesting versions of the game!
 
-Find one that's super interesting?
-
-**Add it to the list here:** [https://github.com/learn-js/learn-js.github.com/blob/master/_posts/posts/2014-03-17-exploring-open-source-2048-game-javascript-examples.md](https://github.com/learn-js/learn-js.github.com/blob/master/_posts/posts/2014-03-17-exploring-open-source-2048-game-javascript-examples.md)
-
-<div class="discover">
-  <h3>Interested in learning to make JavaScript games?</h3>
-  Check out our book <a href="http://learnjs.io/books/learnjs-02/">Making 2D Games with JavaScript</a>.
-</div>

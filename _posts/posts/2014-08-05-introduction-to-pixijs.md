@@ -4,6 +4,7 @@ slug: introduction-to-pixijs
 published: true
 layout: post
 type: post
+redirect_to: "http://makerlog.org/posts/introduction-to-pixijs"
 ---
 
 Pixi.js is a wonderful library dedicated to serving as a fast and simple rendering engine. It can be used with a number of other JavaScript game libraries, and can do both canvas and WebGL rendering.

@@ -4,6 +4,7 @@ slug: making-retro-interactive-art-with-gretro-and-gameloop
 published: true
 layout: post
 type: post
+redirect_to: "http://makerlog.org/posts/making-weird-retro-interactive-art-with-gretro-and-gameloop"
 ---
 
 This will serve as a basic introduction to the [gretro](https://github.com/mohayonao/gretro), a JavaScript module that provides an API for drawing 2D art on a canvas that has the style of a retro video game.

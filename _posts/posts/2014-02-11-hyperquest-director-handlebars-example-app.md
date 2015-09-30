@@ -4,7 +4,7 @@ slug: hyperquest-director-handlebars-example-app
 published: true
 layout: post
 type: post
-npmrecipe: true
+redirect_to: "http://makerlog.org/posts/hyperquest-director-handlebars-example-app"
 ---
 
 > **September 7, 2014 update:**

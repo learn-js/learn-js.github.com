@@ -4,6 +4,7 @@ slug: using-leaflet-draw-with-browserify
 published: true
 layout: post
 type: post
+redirect_to: "http://makerlog.org/posts/using-leaflet-draw-with-browserify"
 ---
 
 A while back I was working on a simple mapping project and wanted to use [leaflet-draw](https://github.com/Leaflet/Leaflet.draw) with [browserify](http://browserify.org/). I discovered that there was "one weird trick" for getting everything working as expected.

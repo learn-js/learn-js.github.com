@@ -4,6 +4,7 @@ slug: using-browserify-with-rails
 published: true
 layout: post
 type: post
+redirect_to: "http://makerlog.org/posts/using-browserify-with-rails"
 ---
 
 Working on a Ruby on Rails project I had a moment where I realized, "Hey, I haven't used Browserify with Rails before, maybe I should try that out!"

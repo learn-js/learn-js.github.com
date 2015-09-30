@@ -2,6 +2,8 @@ permalink: /blog/:year/:month/:day/:title
 baseurl: ''
 markdown: redcarpet
 exclude: [node_modules, tmp]
+gems:
+  - jekyll-redirect-from
 books:
   available:
     - title: "Canvassing: Learn JavaScript & the HTML5 canvas tag"

@@ -4,6 +4,7 @@ slug: express-and-browserify
 published: true
 layout: post
 type: post
+redirect_to: "http://makerlog.org/posts/express-and-browserify"
 ---
 
 In this brief post we'll take a look at using [express](https://github.com/visionmedia/express), a popular web app framework for node.js, with [browserify](https://github.com/substack/node-browserify), a tool for bundling javascript modules written in node.js style for the browser.

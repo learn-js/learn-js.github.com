@@ -4,6 +4,7 @@ slug: experimenting-with-gremlinsjs-and-the-canvas-tag
 published: true
 layout: post
 type: post
+redirect_to: "http://makerlog.org/posts/experimenting-with-gremlinsjs-and-the-canvas-tag"
 ---
 
 The [Gremlins.js](https://github.com/marmelab/gremlins.js) library is designed for [monkey testing](http://en.wikipedia.org/wiki/Monkey_test) (aka [fuzz testing](http://en.wikipedia.org/wiki/Fuzz_testing)) applications by "unleashing a horde of undisciplined gremlins" that click, scroll, and otherwise cause havoc in the app they are released in. They mimic actual events in the browser, creating click, keypress, and scroll events that can be used to check an application for weird random bugs that users might otherwise accidentally find.

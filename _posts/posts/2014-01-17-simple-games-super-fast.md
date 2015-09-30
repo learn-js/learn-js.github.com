@@ -4,6 +4,7 @@ slug: making-simple-games-quickly
 published: true
 layout: post
 type: post
+redirect_to: "http://makerlog.org/posts/simple-games-super-fast"
 ---
 
 Check out this simple implementation of pong I made in a few hours last night: [sethvincent.github.io/digital-table-tennis-for-two](http://sethvincent.github.io/digital-table-tennis-for-two)

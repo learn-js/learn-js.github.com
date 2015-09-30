@@ -4,6 +4,7 @@ slug: simple-2d-game
 published: true
 layout: post
 type: post
+redirect_to: "http://makerlog.org/posts/simple-2d-game"
 ---
 
 

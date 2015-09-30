@@ -4,7 +4,7 @@ slug: creating-js-library-builds-with-browserify-and-other-npm-modules
 published: true
 layout: post
 type: post
-npmrecipe: true
+redirect_to: "http://makerlog.org/posts/creating-js-library-builds-with-browserify-and-other-npm-modules"
 ---
 
 Recently I had the opportunity to use Browserify as one of the tools for creating a JavaScript module for a client that is building a mapping product for architects and urban planners. 

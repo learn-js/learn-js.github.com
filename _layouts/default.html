@@ -22,38 +22,11 @@
     <script src="{{ site.baseurl }}/components/html5shiv/dist/html5shiv.js"></script>
   </head>
   <body>
-    <div id="fb-root"></div>
-    <script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=519892634715793";
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
-
-    {% include header.html %}
 
     <main role="main">
-      {% include top-nav.html %}
 
       {{ content }}
     </main>
 
-    <footer>
-      <div class="container">
-        <div class="inner-wrapper">
-          <h1>hi@learnjs.io</h1>
-          <p>Say hello.</p>
-          <a href="http://superbigtree.com" class="superbigtree" target="blank">
-            <img alt="Sbt" src="{{ site.baseurl }}/img/sbt.png">
-          </a>
-        </div>
-      </div>
-    </footer>
-
-    {% include google-analytics.html %}
-
-    <script src="{{ site.baseurl }}/components/Placeholders.min/index.js"></script>
-    <script src="{{ site.baseurl }}/app.js"></script>
   </body>
 </html>

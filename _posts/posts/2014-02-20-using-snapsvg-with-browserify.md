@@ -4,6 +4,7 @@ slug: using-snapsvg-with-browserify
 published: true
 layout: post
 type: post
+redirect_to: "http://makerlog.org/posts/using-snapsvg-with-browserify"
 ---
 
 It's not currently possible to use Snap.svg with Browserify by requiring the snapsvg package that's distributed on [npm](http://npmjs.org), but there is a workaround!

@@ -4,6 +4,7 @@ slug: javascript-adventure
 published: true
 layout: post
 type: post
+redirect_to: "http://makerlog.org/posts/javascript-adventure"
 ---
 
 Learning to code online is cool. But sometimes people get to the end of a tutorial on a site like codecademy.com and then say, "wait, now how do I use that?"

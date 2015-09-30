@@ -4,7 +4,7 @@ slug: gameloop-load-images-sprite-2d
 published: true
 layout: post
 type: post
-npmrecipe: true
+redirect_to: "http://makerlog.org/posts/gameloop-load-images-sprite-2d"
 ---
 
 Learn about using the [sprite-2d](http://github.com/sethvincent/sprite-2d), [load-images](http://github.com/sethvincent/load-images), and [gameloop](http://github.com/sethvincent/gameloop) modules to create animations for 2d canvas/javascript games.

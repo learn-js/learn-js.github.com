@@ -4,7 +4,7 @@ slug: rework-npm-myth-clean-css
 published: true
 layout: post
 type: post
-npmrecipe: true
+redirect_to: "http://makerlog.org/posts/rework-npm-myth-clean-css"
 ---
 
 In this tutorial we'll focus on bundling css that's published on npm using three modules:
